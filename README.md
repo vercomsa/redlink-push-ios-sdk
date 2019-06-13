@@ -104,6 +104,11 @@ You can change each of the following data fields:
 - lastName `String`
 - customParameters `[String: Any]` - where `Any` is `String` or `Int` or `Bool` or `Date`. Any other type of value will be ignored and removed automatically 
 
+Validation: 
+
+- `email` requires valid email format
+- `email`, `companyName`, `firstName`, `lastName` can be up to 64 length characters
+
 After changing user data you have to manually save it. To do that call: 
 ```swift
 func saveUser()
@@ -141,6 +146,16 @@ Redlink.analytics.trackEvent(withName: "event_name", parameters: [
 ])
 ```
 Parameters are of type `[String: Any]` - where `Any` is `String` or `Int` or `Bool` or `Date`. Any other type of value will be ignored and removed automatically.
+
+Validation:
+
+- `EventName` can be up to 64 length characters
+- Param `key` can be up to 64 length characters
+
+Besides paramaters you can inject `userData` as Valid JSON String:
+```swift
+Redlink.analytics.trackEvent(withName: "event_name", userData: "{\"foo\":\"bar\"}")
+```
 
 ## Deeplinking
 
