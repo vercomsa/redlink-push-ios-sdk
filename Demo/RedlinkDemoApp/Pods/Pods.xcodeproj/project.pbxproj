@@ -1,0 +1,1036 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		FD86BF5BAA849D31ABD8B21CED38793E /* Redlink */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C3B13AF813E8925033C72B04E86F8839 /* Build configuration list for PBXAggregateTarget "Redlink" */;
+			buildPhases = (
+			);
+			dependencies = (
+				C2EC048DD303E3140A4DE83A8942101B /* PBXTargetDependency */,
+			);
+			name = Redlink;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		067CE7E3D6E743B3C692F7375164E135 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		0A4A44A591740138B79279B3DEBCCAC7 /* AggregateFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79308D9E42F5F5F3A06BAF9F02813AB3 /* AggregateFunctions.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0EB8D2D697561DE098A3E0592EF30DA5 /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2C221BE18966579F3CF3BD55B69D76 /* Value.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1C9FD028F6AA14AF738814EA26AD3242 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F4E9F94C2032410AB51EBF6D89C7E8 /* Operators.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2BA4F4345569F7E0148D4CB4F97DAE38 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764BB733512E9C4B652CF613B316BCE6 /* Helpers.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		33747F14C567514E0FA4F596E7E0B3C2 /* Statement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10446B4B8F3A9467F241812AF579308E /* Statement.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3611618C90E31C5F5783D756790A66BF /* fts3_tokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = E5AD8C6DC8D446389A8ACB271C1A2D92 /* fts3_tokenizer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		36BAD0B2E1F00B6D3BC24045DADC3E6D /* Pods-RedlinkDemoApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C6B9A25EBC089325FB16C387897649 /* Pods-RedlinkDemoApp-dummy.m */; };
+		3E18FB83F044FE747D2ACA7F7B656B99 /* Pods-RedlinkDemoApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 554F900FD1E83D76180F279882545A05 /* Pods-RedlinkDemoApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		429D475C5FAABCDEE9DA1B55539F6856 /* Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA9D14842C930EF6AC098268389B4CF /* Foundation.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		481C0FF24DB2DAABF79EA47A0EA26B37 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60B680545CE73D0EA8EBACFB2ACC1FF /* Errors.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4FB90C5DBB9C8B37EECC3773A11F6414 /* Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D181CDB9E2C684A40B24E19E4B93A67 /* Schema.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		527D4F84DCB7100B8B6106F91BD65E44 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9145A8DD0D9B3D738342FCA448F880C9 /* Connection.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5CA8E870F3C6C2F0CE2B8BAB1D52FBCF /* SQLite.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE9EFE9BF490F80DB0E65E2539AF8CB /* SQLite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D220C5482179A025C50D2D2A84A6A6E /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FDBCCABBA7F9C9122ABFB2C8E6C3A1 /* Expression.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5D4D38D1EE642E722318E65CF9B0B9D4 /* SQLite-Bridging.m in Sources */ = {isa = PBXBuildFile; fileRef = 762A6AA792F78D6F04C59F944C4CB7F2 /* SQLite-Bridging.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		889035A3FF2E766A97ECD59CC07BBD5B /* Coding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E00C5A0C277F576609B17617C3D7581 /* Coding.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8ABD3B5108ACB067066C010C24031F40 /* FTS5.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DBB99245B154479486B8328CC481C1 /* FTS5.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		957E77073EE4DD5785F2E91CA92E09A6 /* CoreFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A89E4A9FD6E1B9092D56BDF84A8BD62 /* CoreFunctions.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A6027141910D118E25FE3BB4BC19F1D9 /* Blob.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E5B359E27CC37F1C9990D9162BEBFA /* Blob.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A7AF256C68CD63A66F511B748F4402FB /* RTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A907B0F2DB47552DCD0107CA63CAF57 /* RTree.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		ACD11CF41F11F2321DDBF73EEB46A51F /* Pods-RedlinkDemoAppNotificationServiceExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B692A5617FE00A7351CA9B6646B4487B /* Pods-RedlinkDemoAppNotificationServiceExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD043AB1A55A5D1B0559B18DB973871A /* Pods-RedlinkDemoAppNotificationServiceExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F00C08235BCD9D7491A04FC6A1FF4A00 /* Pods-RedlinkDemoAppNotificationServiceExtension-dummy.m */; };
+		BD44B58825C3925ADD4361F601F3D317 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C5A4407F0857DA7781D4CE54A36B2B86 /* CustomFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BF68EDFEDCE12FBF5D7A4BCDF1BE2B /* CustomFunctions.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D240594FC668AAFFC0FC1B1605E69A6C /* FTS4.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA204B443033EE841628F20F34F3F497 /* FTS4.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DB32C7941BCEAFC4880915505FD6FEB0 /* SQLite.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31CA1DE036FC1366482A5986EAC6D5D4 /* SQLite.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1686841DE0B98F8E43BC61185D8C68F /* SQLite.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E56029D0B438138315E9BAFA06F399E0 /* SQLite.swift-dummy.m */; };
+		E3109D777DB23D6A23A8AAB387F62495 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E5F770E9501A1A0C51866B1AF7FB0F4B /* SQLite-Bridging.h in Headers */ = {isa = PBXBuildFile; fileRef = EF3F74ACB33526E4C99D3D70BCAE035A /* SQLite-Bridging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E68EB4C695976686904D1DCB4BF40DE6 /* DateAndTimeFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABE8AD1648F4E19EB577575F2FB89BC /* DateAndTimeFunctions.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F4FA842A9054116B1F6D69B1072BF4A0 /* Setter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A55BC408BB723CA257E08D0A3D5FEC5 /* Setter.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F68560122DD5F914D17153186BAAECB4 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203E0B70345F88780CF914598F81BC2D /* Query.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F8B1FAC934760C710423E91F63DDB59A /* Collation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A357D1329E22B191449C1AFF88D0C8C2 /* Collation.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		497382F440D1B33D89688FC76584CA0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD86BF5BAA849D31ABD8B21CED38793E;
+			remoteInfo = Redlink;
+		};
+		5BE009CA970B51C5AADE224D4DC17836 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F2C1776D90B62B156DB52C41A5C419C;
+			remoteInfo = SQLite.swift;
+		};
+		A2A8C5472BD1823F6770B5E7E8916CA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F2C1776D90B62B156DB52C41A5C419C;
+			remoteInfo = SQLite.swift;
+		};
+		C1188985FB2821799E50ADBE2A729A19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F2C1776D90B62B156DB52C41A5C419C;
+			remoteInfo = SQLite.swift;
+		};
+		DCA0A640D45CCCBFA4551CD8E1511BB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD86BF5BAA849D31ABD8B21CED38793E;
+			remoteInfo = Redlink;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06E040E5BC40DC228AE66DE2533C20E7 /* Pods-RedlinkDemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedlinkDemoApp.release.xcconfig"; sourceTree = "<group>"; };
+		0EE9EFE9BF490F80DB0E65E2539AF8CB /* SQLite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SQLite.h; path = Sources/SQLite/SQLite.h; sourceTree = "<group>"; };
+		10446B4B8F3A9467F241812AF579308E /* Statement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Statement.swift; path = Sources/SQLite/Core/Statement.swift; sourceTree = "<group>"; };
+		1A55BC408BB723CA257E08D0A3D5FEC5 /* Setter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Setter.swift; path = Sources/SQLite/Typed/Setter.swift; sourceTree = "<group>"; };
+		1A907B0F2DB47552DCD0107CA63CAF57 /* RTree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RTree.swift; path = Sources/SQLite/Extensions/RTree.swift; sourceTree = "<group>"; };
+		1AAF949C74DF6F275E016DF87346EA14 /* Pods-RedlinkDemoAppNotificationServiceExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RedlinkDemoAppNotificationServiceExtension-Info.plist"; sourceTree = "<group>"; };
+		1E48659AB96A1308C7A31B8AF890CB26 /* Redlink.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Redlink.xcconfig; sourceTree = "<group>"; };
+		203E0B70345F88780CF914598F81BC2D /* Query.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Query.swift; path = Sources/SQLite/Typed/Query.swift; sourceTree = "<group>"; };
+		247B0F225227C61954475C6A1C91D9B7 /* Pods-RedlinkDemoApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RedlinkDemoApp.modulemap"; sourceTree = "<group>"; };
+		2E00C5A0C277F576609B17617C3D7581 /* Coding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coding.swift; path = Sources/SQLite/Typed/Coding.swift; sourceTree = "<group>"; };
+		31CA1DE036FC1366482A5986EAC6D5D4 /* SQLite.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLite.swift-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		37D1DAFB324E2FA376379C0730D38BF6 /* Pods-RedlinkDemoAppNotificationServiceExtension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RedlinkDemoAppNotificationServiceExtension-acknowledgements.plist"; sourceTree = "<group>"; };
+		396D13477D47F5566065B1E1EDC2F014 /* Pods-RedlinkDemoAppNotificationServiceExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RedlinkDemoAppNotificationServiceExtension.modulemap"; sourceTree = "<group>"; };
+		3D181CDB9E2C684A40B24E19E4B93A67 /* Schema.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Schema.swift; path = Sources/SQLite/Typed/Schema.swift; sourceTree = "<group>"; };
+		4ABE8AD1648F4E19EB577575F2FB89BC /* DateAndTimeFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateAndTimeFunctions.swift; path = Sources/SQLite/Typed/DateAndTimeFunctions.swift; sourceTree = "<group>"; };
+		554F900FD1E83D76180F279882545A05 /* Pods-RedlinkDemoApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RedlinkDemoApp-umbrella.h"; sourceTree = "<group>"; };
+		762A6AA792F78D6F04C59F944C4CB7F2 /* SQLite-Bridging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SQLite-Bridging.m"; path = "Sources/SQLiteObjc/SQLite-Bridging.m"; sourceTree = "<group>"; };
+		764BB733512E9C4B652CF613B316BCE6 /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = Sources/SQLite/Helpers.swift; sourceTree = "<group>"; };
+		79308D9E42F5F5F3A06BAF9F02813AB3 /* AggregateFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AggregateFunctions.swift; path = Sources/SQLite/Typed/AggregateFunctions.swift; sourceTree = "<group>"; };
+		7CF4578A922D240329ABE182A6D70C97 /* Pods-RedlinkDemoAppNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedlinkDemoAppNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		81F005CEFAFA816DB03641A7EC8F7040 /* Pods_RedlinkDemoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RedlinkDemoApp.framework; path = "Pods-RedlinkDemoApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		864F92E639FA63214556F59169806992 /* SQLite.swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SQLite.swift-Info.plist"; sourceTree = "<group>"; };
+		8A89E4A9FD6E1B9092D56BDF84A8BD62 /* CoreFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreFunctions.swift; path = Sources/SQLite/Typed/CoreFunctions.swift; sourceTree = "<group>"; };
+		8E2C221BE18966579F3CF3BD55B69D76 /* Value.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Value.swift; path = Sources/SQLite/Core/Value.swift; sourceTree = "<group>"; };
+		8FA9D14842C930EF6AC098268389B4CF /* Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Foundation.swift; path = Sources/SQLite/Foundation.swift; sourceTree = "<group>"; };
+		9145A8DD0D9B3D738342FCA448F880C9 /* Connection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Connection.swift; path = Sources/SQLite/Core/Connection.swift; sourceTree = "<group>"; };
+		93FDBCCABBA7F9C9122ABFB2C8E6C3A1 /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Sources/SQLite/Typed/Expression.swift; sourceTree = "<group>"; };
+		9474CC0520C23C775B08CD0582A7CA7F /* Pods-RedlinkDemoApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RedlinkDemoApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		94BF68EDFEDCE12FBF5D7A4BCDF1BE2B /* CustomFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomFunctions.swift; path = Sources/SQLite/Typed/CustomFunctions.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A357D1329E22B191449C1AFF88D0C8C2 /* Collation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Collation.swift; path = Sources/SQLite/Typed/Collation.swift; sourceTree = "<group>"; };
+		AA817C41800E85A1BC797EE489C3B589 /* Pods-RedlinkDemoApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RedlinkDemoApp-Info.plist"; sourceTree = "<group>"; };
+		AE5CFF9997A9F355F5549E2E01DEA135 /* Redlink.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Redlink.framework; path = Framework/Redlink.framework; sourceTree = "<group>"; };
+		B692A5617FE00A7351CA9B6646B4487B /* Pods-RedlinkDemoAppNotificationServiceExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RedlinkDemoAppNotificationServiceExtension-umbrella.h"; sourceTree = "<group>"; };
+		C2F4E9F94C2032410AB51EBF6D89C7E8 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/SQLite/Typed/Operators.swift; sourceTree = "<group>"; };
+		C4DBB99245B154479486B8328CC481C1 /* FTS5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTS5.swift; path = Sources/SQLite/Extensions/FTS5.swift; sourceTree = "<group>"; };
+		C60E2E20447560F6EFE2F97EE1C83FAF /* SQLite.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLite.swift-prefix.pch"; sourceTree = "<group>"; };
+		CA204B443033EE841628F20F34F3F497 /* FTS4.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTS4.swift; path = Sources/SQLite/Extensions/FTS4.swift; sourceTree = "<group>"; };
+		D00CE085CE01DEA335C27101FD2792F4 /* Pods-RedlinkDemoApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RedlinkDemoApp-frameworks.sh"; sourceTree = "<group>"; };
+		D1E5B359E27CC37F1C9990D9162BEBFA /* Blob.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Blob.swift; path = Sources/SQLite/Core/Blob.swift; sourceTree = "<group>"; };
+		DD5128BD0DD90EF3E3604E8253BD6171 /* SQLite.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQLite.swift.xcconfig; sourceTree = "<group>"; };
+		E56029D0B438138315E9BAFA06F399E0 /* SQLite.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SQLite.swift-dummy.m"; sourceTree = "<group>"; };
+		E5AD8C6DC8D446389A8ACB271C1A2D92 /* fts3_tokenizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fts3_tokenizer.h; path = Sources/SQLiteObjc/fts3_tokenizer.h; sourceTree = "<group>"; };
+		E5EDCDB931E94A29025E7B5298EC4437 /* Pods-RedlinkDemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedlinkDemoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		EBF54660E6A8BFADD176B3EAEE24C9F1 /* Pods-RedlinkDemoAppNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedlinkDemoAppNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		EF3F74ACB33526E4C99D3D70BCAE035A /* SQLite-Bridging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SQLite-Bridging.h"; path = "Sources/SQLiteObjc/include/SQLite-Bridging.h"; sourceTree = "<group>"; };
+		F00C08235BCD9D7491A04FC6A1FF4A00 /* Pods-RedlinkDemoAppNotificationServiceExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RedlinkDemoAppNotificationServiceExtension-dummy.m"; sourceTree = "<group>"; };
+		F02AB21CD8FEBFEFD50D8BEBED6C9F98 /* Pods-RedlinkDemoApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RedlinkDemoApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		F13317047E88DFB01FDB7DA949D027A9 /* Pods_RedlinkDemoAppNotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RedlinkDemoAppNotificationServiceExtension.framework; path = "Pods-RedlinkDemoAppNotificationServiceExtension.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2C6B9A25EBC089325FB16C387897649 /* Pods-RedlinkDemoApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RedlinkDemoApp-dummy.m"; sourceTree = "<group>"; };
+		F4FD86F05B7D77449B7FBD9C2BB8EC95 /* Pods-RedlinkDemoAppNotificationServiceExtension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RedlinkDemoAppNotificationServiceExtension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F562CC46D0A2DC7DEA4F9C3E7C2912BC /* SQLite.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SQLite.swift.modulemap; sourceTree = "<group>"; };
+		F5FA45A44C42CC2CA3A324A3E914CE19 /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SQLite.framework; path = SQLite.swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F60B680545CE73D0EA8EBACFB2ACC1FF /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = Sources/SQLite/Core/Errors.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		185F81CA34F40B9B02BDA7188DB9329C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD44B58825C3925ADD4361F601F3D317 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1809649C4C00B5E7ECA2A0208928561 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				067CE7E3D6E743B3C692F7375164E135 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD508E409E18BB6C690D3948083E145F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3109D777DB23D6A23A8AAB387F62495 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A189BA999BBCF2B5536C851208080BE /* SQLite.swift */ = {
+			isa = PBXGroup;
+			children = (
+				F580EB4070346C9C228E8EE068D7E1F1 /* standard */,
+				78166FDA4D48207051E69105303296DB /* Support Files */,
+			);
+			name = SQLite.swift;
+			path = SQLite.swift;
+			sourceTree = "<group>";
+		};
+		154B1E2FAD8D7B4461D518A13B0491BA /* Pods-RedlinkDemoAppNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				396D13477D47F5566065B1E1EDC2F014 /* Pods-RedlinkDemoAppNotificationServiceExtension.modulemap */,
+				F4FD86F05B7D77449B7FBD9C2BB8EC95 /* Pods-RedlinkDemoAppNotificationServiceExtension-acknowledgements.markdown */,
+				37D1DAFB324E2FA376379C0730D38BF6 /* Pods-RedlinkDemoAppNotificationServiceExtension-acknowledgements.plist */,
+				F00C08235BCD9D7491A04FC6A1FF4A00 /* Pods-RedlinkDemoAppNotificationServiceExtension-dummy.m */,
+				1AAF949C74DF6F275E016DF87346EA14 /* Pods-RedlinkDemoAppNotificationServiceExtension-Info.plist */,
+				B692A5617FE00A7351CA9B6646B4487B /* Pods-RedlinkDemoAppNotificationServiceExtension-umbrella.h */,
+				7CF4578A922D240329ABE182A6D70C97 /* Pods-RedlinkDemoAppNotificationServiceExtension.debug.xcconfig */,
+				EBF54660E6A8BFADD176B3EAEE24C9F1 /* Pods-RedlinkDemoAppNotificationServiceExtension.release.xcconfig */,
+			);
+			name = "Pods-RedlinkDemoAppNotificationServiceExtension";
+			path = "Target Support Files/Pods-RedlinkDemoAppNotificationServiceExtension";
+			sourceTree = "<group>";
+		};
+		1BFB9F54BFA512C39D147C072FF6EB0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81F005CEFAFA816DB03641A7EC8F7040 /* Pods_RedlinkDemoApp.framework */,
+				F13317047E88DFB01FDB7DA949D027A9 /* Pods_RedlinkDemoAppNotificationServiceExtension.framework */,
+				F5FA45A44C42CC2CA3A324A3E914CE19 /* SQLite.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F23874436B91C23980505ED5FE40D7B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E48659AB96A1308C7A31B8AF890CB26 /* Redlink.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Redlink";
+			sourceTree = "<group>";
+		};
+		38135618F8F0359EF11579CCFC18422B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D27BE3C20A57165883C663820B1B3628 /* Redlink */,
+				0A189BA999BBCF2B5536C851208080BE /* SQLite.swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		78166FDA4D48207051E69105303296DB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F562CC46D0A2DC7DEA4F9C3E7C2912BC /* SQLite.swift.modulemap */,
+				DD5128BD0DD90EF3E3604E8253BD6171 /* SQLite.swift.xcconfig */,
+				E56029D0B438138315E9BAFA06F399E0 /* SQLite.swift-dummy.m */,
+				864F92E639FA63214556F59169806992 /* SQLite.swift-Info.plist */,
+				C60E2E20447560F6EFE2F97EE1C83FAF /* SQLite.swift-prefix.pch */,
+				31CA1DE036FC1366482A5986EAC6D5D4 /* SQLite.swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SQLite.swift";
+			sourceTree = "<group>";
+		};
+		A83284688299A6AE227B841E174FB400 /* Pods-RedlinkDemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				247B0F225227C61954475C6A1C91D9B7 /* Pods-RedlinkDemoApp.modulemap */,
+				9474CC0520C23C775B08CD0582A7CA7F /* Pods-RedlinkDemoApp-acknowledgements.markdown */,
+				F02AB21CD8FEBFEFD50D8BEBED6C9F98 /* Pods-RedlinkDemoApp-acknowledgements.plist */,
+				F2C6B9A25EBC089325FB16C387897649 /* Pods-RedlinkDemoApp-dummy.m */,
+				D00CE085CE01DEA335C27101FD2792F4 /* Pods-RedlinkDemoApp-frameworks.sh */,
+				AA817C41800E85A1BC797EE489C3B589 /* Pods-RedlinkDemoApp-Info.plist */,
+				554F900FD1E83D76180F279882545A05 /* Pods-RedlinkDemoApp-umbrella.h */,
+				E5EDCDB931E94A29025E7B5298EC4437 /* Pods-RedlinkDemoApp.debug.xcconfig */,
+				06E040E5BC40DC228AE66DE2533C20E7 /* Pods-RedlinkDemoApp.release.xcconfig */,
+			);
+			name = "Pods-RedlinkDemoApp";
+			path = "Target Support Files/Pods-RedlinkDemoApp";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				38135618F8F0359EF11579CCFC18422B /* Pods */,
+				1BFB9F54BFA512C39D147C072FF6EB0C /* Products */,
+				ED3328092AA215C05821581DAF5B3AF5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D27BE3C20A57165883C663820B1B3628 /* Redlink */ = {
+			isa = PBXGroup;
+			children = (
+				E6045AA73953A5F9A7D81DC6ABC6D1F7 /* Frameworks */,
+				2F23874436B91C23980505ED5FE40D7B /* Support Files */,
+			);
+			name = Redlink;
+			path = Redlink;
+			sourceTree = "<group>";
+		};
+		E6045AA73953A5F9A7D81DC6ABC6D1F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE5CFF9997A9F355F5549E2E01DEA135 /* Redlink.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED3328092AA215C05821581DAF5B3AF5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A83284688299A6AE227B841E174FB400 /* Pods-RedlinkDemoApp */,
+				154B1E2FAD8D7B4461D518A13B0491BA /* Pods-RedlinkDemoAppNotificationServiceExtension */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F580EB4070346C9C228E8EE068D7E1F1 /* standard */ = {
+			isa = PBXGroup;
+			children = (
+				79308D9E42F5F5F3A06BAF9F02813AB3 /* AggregateFunctions.swift */,
+				D1E5B359E27CC37F1C9990D9162BEBFA /* Blob.swift */,
+				2E00C5A0C277F576609B17617C3D7581 /* Coding.swift */,
+				A357D1329E22B191449C1AFF88D0C8C2 /* Collation.swift */,
+				9145A8DD0D9B3D738342FCA448F880C9 /* Connection.swift */,
+				8A89E4A9FD6E1B9092D56BDF84A8BD62 /* CoreFunctions.swift */,
+				94BF68EDFEDCE12FBF5D7A4BCDF1BE2B /* CustomFunctions.swift */,
+				4ABE8AD1648F4E19EB577575F2FB89BC /* DateAndTimeFunctions.swift */,
+				F60B680545CE73D0EA8EBACFB2ACC1FF /* Errors.swift */,
+				93FDBCCABBA7F9C9122ABFB2C8E6C3A1 /* Expression.swift */,
+				8FA9D14842C930EF6AC098268389B4CF /* Foundation.swift */,
+				E5AD8C6DC8D446389A8ACB271C1A2D92 /* fts3_tokenizer.h */,
+				CA204B443033EE841628F20F34F3F497 /* FTS4.swift */,
+				C4DBB99245B154479486B8328CC481C1 /* FTS5.swift */,
+				764BB733512E9C4B652CF613B316BCE6 /* Helpers.swift */,
+				C2F4E9F94C2032410AB51EBF6D89C7E8 /* Operators.swift */,
+				203E0B70345F88780CF914598F81BC2D /* Query.swift */,
+				1A907B0F2DB47552DCD0107CA63CAF57 /* RTree.swift */,
+				3D181CDB9E2C684A40B24E19E4B93A67 /* Schema.swift */,
+				1A55BC408BB723CA257E08D0A3D5FEC5 /* Setter.swift */,
+				0EE9EFE9BF490F80DB0E65E2539AF8CB /* SQLite.h */,
+				EF3F74ACB33526E4C99D3D70BCAE035A /* SQLite-Bridging.h */,
+				762A6AA792F78D6F04C59F944C4CB7F2 /* SQLite-Bridging.m */,
+				10446B4B8F3A9467F241812AF579308E /* Statement.swift */,
+				8E2C221BE18966579F3CF3BD55B69D76 /* Value.swift */,
+			);
+			name = standard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		050AD71500CF7E90CF8D31FFA7DC1A20 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E18FB83F044FE747D2ACA7F7B656B99 /* Pods-RedlinkDemoApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		275E738306F2E7751252F614A9CF549B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD11CF41F11F2321DDBF73EEB46A51F /* Pods-RedlinkDemoAppNotificationServiceExtension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CE2FDE7FB22ED91E17E4E1C1CC8B123 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3611618C90E31C5F5783D756790A66BF /* fts3_tokenizer.h in Headers */,
+				E5F770E9501A1A0C51866B1AF7FB0F4B /* SQLite-Bridging.h in Headers */,
+				5CA8E870F3C6C2F0CE2B8BAB1D52FBCF /* SQLite.h in Headers */,
+				DB32C7941BCEAFC4880915505FD6FEB0 /* SQLite.swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3F2C1776D90B62B156DB52C41A5C419C /* SQLite.swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30B462029BF7CF16C1BA8080F963F9DB /* Build configuration list for PBXNativeTarget "SQLite.swift" */;
+			buildPhases = (
+				7CE2FDE7FB22ED91E17E4E1C1CC8B123 /* Headers */,
+				D9AB9F27CD2516301C42408E5E79A188 /* Sources */,
+				C1809649C4C00B5E7ECA2A0208928561 /* Frameworks */,
+				699165E55F43EEC36B7831FC4C8FB054 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQLite.swift;
+			productName = SQLite.swift;
+			productReference = F5FA45A44C42CC2CA3A324A3E914CE19 /* SQLite.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D687F9D28FB31D8574E3C5BF5C1E0DCB /* Pods-RedlinkDemoAppNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5828AD4325871DD54598A9FCB9473942 /* Build configuration list for PBXNativeTarget "Pods-RedlinkDemoAppNotificationServiceExtension" */;
+			buildPhases = (
+				275E738306F2E7751252F614A9CF549B /* Headers */,
+				9BD36A307B8AF6EE6967B11350412167 /* Sources */,
+				185F81CA34F40B9B02BDA7188DB9329C /* Frameworks */,
+				C47E4DAB9CFF2FCF12BB07F00ED16EDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A83FC819A973FCFFE9FC4D0055DC4ADD /* PBXTargetDependency */,
+				FD60331481EECC5A0D346518491DE8BB /* PBXTargetDependency */,
+			);
+			name = "Pods-RedlinkDemoAppNotificationServiceExtension";
+			productName = "Pods-RedlinkDemoAppNotificationServiceExtension";
+			productReference = F13317047E88DFB01FDB7DA949D027A9 /* Pods_RedlinkDemoAppNotificationServiceExtension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F147D8DEE8410D68431CD63AE84CC010 /* Pods-RedlinkDemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25A008D5025AEA2C96781FD716C38D68 /* Build configuration list for PBXNativeTarget "Pods-RedlinkDemoApp" */;
+			buildPhases = (
+				050AD71500CF7E90CF8D31FFA7DC1A20 /* Headers */,
+				A8DA1FCC63344BE4D0F5480871DC38F6 /* Sources */,
+				CD508E409E18BB6C690D3948083E145F /* Frameworks */,
+				A6A9BB4178E6CD85289C81A018FC82C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F35D0B49AA8CC727BA8CA4B6B2F7AAB /* PBXTargetDependency */,
+				8385D58CEC10F1EC53C5EBD287C287E8 /* PBXTargetDependency */,
+			);
+			name = "Pods-RedlinkDemoApp";
+			productName = "Pods-RedlinkDemoApp";
+			productReference = 81F005CEFAFA816DB03641A7EC8F7040 /* Pods_RedlinkDemoApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1BFB9F54BFA512C39D147C072FF6EB0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F147D8DEE8410D68431CD63AE84CC010 /* Pods-RedlinkDemoApp */,
+				D687F9D28FB31D8574E3C5BF5C1E0DCB /* Pods-RedlinkDemoAppNotificationServiceExtension */,
+				FD86BF5BAA849D31ABD8B21CED38793E /* Redlink */,
+				3F2C1776D90B62B156DB52C41A5C419C /* SQLite.swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		699165E55F43EEC36B7831FC4C8FB054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6A9BB4178E6CD85289C81A018FC82C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47E4DAB9CFF2FCF12BB07F00ED16EDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BD36A307B8AF6EE6967B11350412167 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD043AB1A55A5D1B0559B18DB973871A /* Pods-RedlinkDemoAppNotificationServiceExtension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8DA1FCC63344BE4D0F5480871DC38F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36BAD0B2E1F00B6D3BC24045DADC3E6D /* Pods-RedlinkDemoApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9AB9F27CD2516301C42408E5E79A188 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4A44A591740138B79279B3DEBCCAC7 /* AggregateFunctions.swift in Sources */,
+				A6027141910D118E25FE3BB4BC19F1D9 /* Blob.swift in Sources */,
+				889035A3FF2E766A97ECD59CC07BBD5B /* Coding.swift in Sources */,
+				F8B1FAC934760C710423E91F63DDB59A /* Collation.swift in Sources */,
+				527D4F84DCB7100B8B6106F91BD65E44 /* Connection.swift in Sources */,
+				957E77073EE4DD5785F2E91CA92E09A6 /* CoreFunctions.swift in Sources */,
+				C5A4407F0857DA7781D4CE54A36B2B86 /* CustomFunctions.swift in Sources */,
+				E68EB4C695976686904D1DCB4BF40DE6 /* DateAndTimeFunctions.swift in Sources */,
+				481C0FF24DB2DAABF79EA47A0EA26B37 /* Errors.swift in Sources */,
+				5D220C5482179A025C50D2D2A84A6A6E /* Expression.swift in Sources */,
+				429D475C5FAABCDEE9DA1B55539F6856 /* Foundation.swift in Sources */,
+				D240594FC668AAFFC0FC1B1605E69A6C /* FTS4.swift in Sources */,
+				8ABD3B5108ACB067066C010C24031F40 /* FTS5.swift in Sources */,
+				2BA4F4345569F7E0148D4CB4F97DAE38 /* Helpers.swift in Sources */,
+				1C9FD028F6AA14AF738814EA26AD3242 /* Operators.swift in Sources */,
+				F68560122DD5F914D17153186BAAECB4 /* Query.swift in Sources */,
+				A7AF256C68CD63A66F511B748F4402FB /* RTree.swift in Sources */,
+				4FB90C5DBB9C8B37EECC3773A11F6414 /* Schema.swift in Sources */,
+				F4FA842A9054116B1F6D69B1072BF4A0 /* Setter.swift in Sources */,
+				5D4D38D1EE642E722318E65CF9B0B9D4 /* SQLite-Bridging.m in Sources */,
+				E1686841DE0B98F8E43BC61185D8C68F /* SQLite.swift-dummy.m in Sources */,
+				33747F14C567514E0FA4F596E7E0B3C2 /* Statement.swift in Sources */,
+				0EB8D2D697561DE098A3E0592EF30DA5 /* Value.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8385D58CEC10F1EC53C5EBD287C287E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SQLite.swift;
+			target = 3F2C1776D90B62B156DB52C41A5C419C /* SQLite.swift */;
+			targetProxy = 5BE009CA970B51C5AADE224D4DC17836 /* PBXContainerItemProxy */;
+		};
+		8F35D0B49AA8CC727BA8CA4B6B2F7AAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Redlink;
+			target = FD86BF5BAA849D31ABD8B21CED38793E /* Redlink */;
+			targetProxy = DCA0A640D45CCCBFA4551CD8E1511BB7 /* PBXContainerItemProxy */;
+		};
+		A83FC819A973FCFFE9FC4D0055DC4ADD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Redlink;
+			target = FD86BF5BAA849D31ABD8B21CED38793E /* Redlink */;
+			targetProxy = 497382F440D1B33D89688FC76584CA0C /* PBXContainerItemProxy */;
+		};
+		C2EC048DD303E3140A4DE83A8942101B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SQLite.swift;
+			target = 3F2C1776D90B62B156DB52C41A5C419C /* SQLite.swift */;
+			targetProxy = A2A8C5472BD1823F6770B5E7E8916CA1 /* PBXContainerItemProxy */;
+		};
+		FD60331481EECC5A0D346518491DE8BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SQLite.swift;
+			target = 3F2C1776D90B62B156DB52C41A5C419C /* SQLite.swift */;
+			targetProxy = C1188985FB2821799E50ADBE2A729A19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		17A12DC5BBD6661374AE112B1A8A635E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD5128BD0DD90EF3E3604E8253BD6171 /* SQLite.swift.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SQLite.swift/SQLite.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SQLite.swift/SQLite.swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SQLite.swift/SQLite.swift.modulemap";
+				PRODUCT_MODULE_NAME = SQLite;
+				PRODUCT_NAME = SQLite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		257497152829C177993B5EC99C1D227A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		2E3E2AFAD22FC35DD884F7843BF2BEAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBF54660E6A8BFADD176B3EAEE24C9F1 /* Pods-RedlinkDemoAppNotificationServiceExtension.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RedlinkDemoAppNotificationServiceExtension/Pods-RedlinkDemoAppNotificationServiceExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RedlinkDemoAppNotificationServiceExtension/Pods-RedlinkDemoAppNotificationServiceExtension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		41513950D9BAD568E119244A8B978491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E48659AB96A1308C7A31B8AF890CB26 /* Redlink.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E6FB841104B10B3FDB8B75EC90D0516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD5128BD0DD90EF3E3604E8253BD6171 /* SQLite.swift.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SQLite.swift/SQLite.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SQLite.swift/SQLite.swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SQLite.swift/SQLite.swift.modulemap";
+				PRODUCT_MODULE_NAME = SQLite;
+				PRODUCT_NAME = SQLite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6018CBFC12F97CAA855E72B31756A1B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5EDCDB931E94A29025E7B5298EC4437 /* Pods-RedlinkDemoApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RedlinkDemoApp/Pods-RedlinkDemoApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RedlinkDemoApp/Pods-RedlinkDemoApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6F308AF50D08275E6A1269A394710427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E48659AB96A1308C7A31B8AF890CB26 /* Redlink.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A62BC5C5708FCC59781B653ECBE1DA4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06E040E5BC40DC228AE66DE2533C20E7 /* Pods-RedlinkDemoApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RedlinkDemoApp/Pods-RedlinkDemoApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RedlinkDemoApp/Pods-RedlinkDemoApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A6EA2C2932B1B4CF16A557EDC6530086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CF4578A922D240329ABE182A6D70C97 /* Pods-RedlinkDemoAppNotificationServiceExtension.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RedlinkDemoAppNotificationServiceExtension/Pods-RedlinkDemoAppNotificationServiceExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RedlinkDemoAppNotificationServiceExtension/Pods-RedlinkDemoAppNotificationServiceExtension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25A008D5025AEA2C96781FD716C38D68 /* Build configuration list for PBXNativeTarget "Pods-RedlinkDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6018CBFC12F97CAA855E72B31756A1B5 /* Debug */,
+				A62BC5C5708FCC59781B653ECBE1DA4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30B462029BF7CF16C1BA8080F963F9DB /* Build configuration list for PBXNativeTarget "SQLite.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17A12DC5BBD6661374AE112B1A8A635E /* Debug */,
+				5E6FB841104B10B3FDB8B75EC90D0516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
+				257497152829C177993B5EC99C1D227A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5828AD4325871DD54598A9FCB9473942 /* Build configuration list for PBXNativeTarget "Pods-RedlinkDemoAppNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6EA2C2932B1B4CF16A557EDC6530086 /* Debug */,
+				2E3E2AFAD22FC35DD884F7843BF2BEAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3B13AF813E8925033C72B04E86F8839 /* Build configuration list for PBXAggregateTarget "Redlink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41513950D9BAD568E119244A8B978491 /* Debug */,
+				6F308AF50D08275E6A1269A394710427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

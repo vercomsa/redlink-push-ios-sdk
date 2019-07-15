@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-RedlinkDemoApp/Pods-RedlinkDemoApp-frameworks.sh
+${PODS_ROOT}/Redlink/Framework/Redlink.framework
+${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework

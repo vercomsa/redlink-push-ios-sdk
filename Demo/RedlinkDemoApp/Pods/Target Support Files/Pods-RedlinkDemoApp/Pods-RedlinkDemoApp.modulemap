@@ -1,0 +1,6 @@
+framework module Pods_RedlinkDemoApp {
+  umbrella header "Pods-RedlinkDemoApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

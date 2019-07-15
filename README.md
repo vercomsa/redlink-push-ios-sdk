@@ -90,6 +90,10 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 }
 ```
 
+### 6. Note
+Please note that automatic configuration might cause unexpected behavior when Redlink is being used along with `Firebase` and other frameworks which swizzle the same methods.
+If so please consider using custom configuration.
+
 ## User Identification
 
 In order to update information about user use RedlinkUserData class. It can be accessed in:
@@ -252,3 +256,8 @@ Each action has one of the four action types:
 `DEEPLINK` - performs `UIApplication.shared.open` with given URL. 
 
 `NONE` - do nothing (notification disappears)
+
+## Demo app
+
+We provide demo app to simply show you what Redlink is capable of. This will also show you how simple it is to configure the framework
+within your project. Please check `Demo` directory to get your hands on.

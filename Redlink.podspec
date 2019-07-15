@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name            = "Redlink"
-  s.version         = "1.1.0"
+  s.version         = "1.1.1"
   s.swift_version   = '4.0'
   s.summary         = "Redlink Push Notifications"
   s.ios.deployment_target = '10.0'
@@ -20,6 +20,6 @@ Pod::Spec.new do |s|
   }
   s.ios.vendored_frameworks = 'Framework/Redlink.framework'
   s.source          = { :git => 'https://github.com/vercomsa/redlink-push-ios-sdk.git', :tag => s.version.to_s }
-  s.dependency 'SQLite.swift', '0.11.5'
+  s.dependency 'SQLite.swift', '0.12.2'
 
 end

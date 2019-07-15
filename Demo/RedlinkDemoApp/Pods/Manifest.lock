@@ -1,0 +1,22 @@
+PODS:
+  - Redlink (1.1.0):
+    - SQLite.swift (= 0.11.5)
+  - SQLite.swift (0.11.5):
+    - SQLite.swift/standard (= 0.11.5)
+  - SQLite.swift/standard (0.11.5)
+
+DEPENDENCIES:
+  - Redlink (~> 1.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Redlink
+    - SQLite.swift
+
+SPEC CHECKSUMS:
+  Redlink: db6f808e2c397c459d40363611ba7c8899bbb345
+  SQLite.swift: 6e5356850bb1791459f8c16d6ee9195b28714a2e
+
+PODFILE CHECKSUM: 8a0e35708f21cb9d6434032709c8054c59457bda
+
+COCOAPODS: 1.7.2
