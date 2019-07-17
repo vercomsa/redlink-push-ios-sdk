@@ -219,6 +219,11 @@ func didReceiveNotificationResponse(response: UNNotificationResponse)
 ```
 `willPresentNotification` gives you opportunity to change `UNNotificationPresentationOptions` for current notification. By default Redlink uses `[.alert]` for all notifications. 
 
+In order to make it possible please conform to the `UNUserNotificationCenterDelegate` protocol inside your `AppDelegate` implementation like so:
+```swift
+UNUserNotificationCenter.current().delegate = self
+```
+
 Required changes example:
 
 ```swift
