@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.1.3 effective-4.1.50 (swiftlang-1100.0.282.1 clang-1100.0.33.15)
+// swift-compiler-version: Apple Swift version 5.3 effective-4.1.50 (swiftlang-1200.0.29.2 clang-1200.0.30.1)
 // swift-module-flags: -target armv7-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 4 -enforce-exclusivity=checked -O -module-name Redlink
 import Foundation
 @_exported import Redlink
@@ -11,7 +11,7 @@ import UIKit
 import UserNotifications.UNUserNotificationCenter
 import UserNotifications
 import WebKit
-@objc public class Redlink : ObjectiveC.NSObject {
+@objc @_inheritsConvenienceInitializers public class Redlink : ObjectiveC.NSObject {
   @objc public class func shared() -> Redlink.Redlink
   @objc public static var push: Redlink.RedlinkPush {
     @objc get
@@ -22,8 +22,8 @@ import WebKit
   @objc public static var analytics: Redlink.RedlinkAnalytics {
     @objc get
   }
-  @objc override dynamic public init()
   @objc deinit
+  @objc override dynamic public init()
 }
 extension Redlink {
   @objc public static func configure(using configuration: Redlink.RedlinkConfiguration)
@@ -36,7 +36,7 @@ extension Redlink {
 }
 extension Redlink : UserNotifications.UNUserNotificationCenterDelegate {
 }
-@objc public class RedlinkUserData : ObjectiveC.NSObject {
+@_inheritsConvenienceInitializers @objc public class RedlinkUserData : ObjectiveC.NSObject {
   @objc override dynamic public init()
   @objc deinit
 }
@@ -142,16 +142,16 @@ extension Reachability {
     get
   }
 }
-@objc final public class RedlinkAnalytics : ObjectiveC.NSObject {
-  @objc deinit
+@objc @_hasMissingDesignatedInitializers final public class RedlinkAnalytics : ObjectiveC.NSObject {
   @objc override dynamic public init()
+  @objc deinit
 }
 extension RedlinkAnalytics {
   @objc final public func trackEvent(withName name: Swift.String, parameters: [Swift.String : Any] = [:], userData: Swift.String? = nil)
 }
-@objc public class RedlinkInAppInteraction : ObjectiveC.NSObject {
-  @objc override dynamic public init()
+@_inheritsConvenienceInitializers @objc public class RedlinkInAppInteraction : ObjectiveC.NSObject {
   @objc deinit
+  @objc override dynamic public init()
 }
 extension RedlinkInAppInteraction {
   @objc public static func presentAlertWithWebViewPresentationAction(in presentingViewController: UIKit.UIViewController?, title: Swift.String, message: Swift.String, webViewURL: Foundation.URL)
@@ -159,7 +159,7 @@ extension RedlinkInAppInteraction {
 extension RedlinkInAppInteraction {
   @objc public static func presentWebViewController(in presentingViewController: UIKit.UIViewController?, for url: Foundation.URL)
 }
-@objc open class AsynchronousOperation : Foundation.Operation {
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class AsynchronousOperation : Foundation.Operation {
   @objc final override public var isReady: Swift.Bool {
     @objc get
   }
@@ -177,13 +177,13 @@ extension RedlinkInAppInteraction {
   public func finish()
   @objc deinit
 }
-@objc open class RedlinkNotificationServiceExtension : UserNotifications.UNNotificationServiceExtension {
+@_inheritsConvenienceInitializers @objc open class RedlinkNotificationServiceExtension : UserNotifications.UNNotificationServiceExtension {
   @objc override dynamic open func didReceive(_ request: UserNotifications.UNNotificationRequest, withContentHandler contentHandler: @escaping (UserNotifications.UNNotificationContent) -> Swift.Void)
   @objc override dynamic open func serviceExtensionTimeWillExpire()
-  @objc override dynamic public init()
   @objc deinit
+  @objc override dynamic public init()
 }
-@objc public class RedlinkConfiguration : ObjectiveC.NSObject {
+@objc @_inheritsConvenienceInitializers public class RedlinkConfiguration : ObjectiveC.NSObject {
   @objc public static func defaultConfiguration() -> Redlink.RedlinkConfiguration
   public var isLoggingEnabled: Swift.Bool {
     get
@@ -201,10 +201,10 @@ extension RedlinkInAppInteraction {
   public var eventsToken: Swift.String {
     get
   }
-  @objc override dynamic public init()
   @objc deinit
+  @objc override dynamic public init()
 }
-@objc public class RedlinkPush : ObjectiveC.NSObject {
+@_inheritsConvenienceInitializers @objc public class RedlinkPush : ObjectiveC.NSObject {
   @objc weak public var delegate: Redlink.RedlinkPushDelegate?
   @objc public var options: Redlink.RedlinkPushOptions
   @objc override dynamic public init()
@@ -219,6 +219,7 @@ extension RedlinkPush {
   @objc dynamic public func didFailToRegisterForRemoteNotifications(with error: Swift.Error)
   @objc dynamic public func willPresentNotification(_ notification: UserNotifications.UNNotification, presentationOptions: UserNotifications.UNNotificationPresentationOptions) -> UserNotifications.UNNotificationPresentationOptions
   @objc dynamic public func didReceiveNotificationResponse(response: UserNotifications.UNNotificationResponse)
+  public func openPush(userInfo: [Swift.AnyHashable : Any], actionIdentifier: Swift.String)
 }
 @objc public protocol RedlinkPushDelegate : AnyObject {
   @objc optional func didRecieveNotification(userInfo: [Swift.AnyHashable : Any])
