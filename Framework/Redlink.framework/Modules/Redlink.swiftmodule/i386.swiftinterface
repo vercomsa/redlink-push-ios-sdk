@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.3.2 effective-4.1.50 (swiftlang-1200.0.45 clang-1200.0.32.28)
+// swift-compiler-version: Apple Swift version 5.4 effective-4.1.50 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
 // swift-module-flags: -target i386-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 4 -enforce-exclusivity=checked -O -module-name Redlink
 import Foundation
 @_exported import Redlink
@@ -22,8 +22,8 @@ import WebKit
   @objc public static var analytics: Redlink.RedlinkAnalytics {
     @objc get
   }
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 extension Redlink {
   @objc public static func configure(using configuration: Redlink.RedlinkConfiguration)
@@ -90,10 +90,10 @@ public class Reachability {
       get
     }
     public static func == (a: Redlink.Reachability.NetworkStatus, b: Redlink.Reachability.NetworkStatus) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
     public var hashValue: Swift.Int {
       get
     }
-    public func hash(into hasher: inout Swift.Hasher)
   }
   public enum Connection : Swift.CustomStringConvertible {
     case none, wifi, cellular
@@ -101,10 +101,10 @@ public class Reachability {
       get
     }
     public static func == (a: Redlink.Reachability.Connection, b: Redlink.Reachability.Connection) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
     public var hashValue: Swift.Int {
       get
     }
-    public func hash(into hasher: inout Swift.Hasher)
   }
   public var whenReachable: Redlink.Reachability.NetworkReachable?
   public var whenUnreachable: Redlink.Reachability.NetworkUnreachable?
@@ -150,8 +150,8 @@ extension RedlinkAnalytics {
   @objc final public func trackEvent(withName name: Swift.String, parameters: [Swift.String : Any] = [:], userData: Swift.String? = nil)
 }
 @_inheritsConvenienceInitializers @objc public class RedlinkInAppInteraction : ObjectiveC.NSObject {
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 extension RedlinkInAppInteraction {
   @objc public static func presentAlertWithWebViewPresentationAction(in presentingViewController: UIKit.UIViewController?, title: Swift.String, message: Swift.String, webViewURL: Foundation.URL)
@@ -180,8 +180,8 @@ extension RedlinkInAppInteraction {
 @_inheritsConvenienceInitializers @objc open class RedlinkNotificationServiceExtension : UserNotifications.UNNotificationServiceExtension {
   @objc override dynamic open func didReceive(_ request: UserNotifications.UNNotificationRequest, withContentHandler contentHandler: @escaping (UserNotifications.UNNotificationContent) -> Swift.Void)
   @objc override dynamic open func serviceExtensionTimeWillExpire()
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class RedlinkConfiguration : ObjectiveC.NSObject {
   @objc public static func defaultConfiguration() -> Redlink.RedlinkConfiguration
@@ -201,8 +201,8 @@ extension RedlinkInAppInteraction {
   public var eventsToken: Swift.String {
     get
   }
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @_inheritsConvenienceInitializers @objc public class RedlinkPush : ObjectiveC.NSObject {
   @objc weak public var delegate: Redlink.RedlinkPushDelegate?
@@ -221,7 +221,7 @@ extension RedlinkPush {
   @objc dynamic public func didReceiveNotificationResponse(response: UserNotifications.UNNotificationResponse)
   public func openPush(userInfo: [Swift.AnyHashable : Any], actionIdentifier: Swift.String)
 }
-@objc public protocol RedlinkPushDelegate : AnyObject {
+@objc public protocol RedlinkPushDelegate {
   @objc optional func didRecieveNotification(userInfo: [Swift.AnyHashable : Any])
   @objc optional func didOpenNotification(userInfo: [Swift.AnyHashable : Any])
   @objc optional func didClickOnActionButton(withIdentifier identifier: Swift.String, userInfo: [Swift.AnyHashable : Any])
