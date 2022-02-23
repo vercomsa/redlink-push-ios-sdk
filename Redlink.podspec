@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
     Copyright 2019 - present Redlink. All rights reserved.
     LICENSE
   }
-  s.ios.vendored_frameworks = 'Framework/Redlink.framework'
+  s.ios.vendored_frameworks = 'Framework/Redlink.xcframework'
   s.source          = { :git => 'https://github.com/vercomsa/redlink-push-ios-sdk.git', :tag => s.version.to_s }
   s.dependency 'SQLite.swift', '0.13.2'
   s.pod_target_xcconfig = {
