@@ -67,7 +67,7 @@ extension RedlinkUserData {
     @objc set
   }
   @objc dynamic public func saveUser()
-  @objc dynamic public func removeUser()
+  @objc dynamic public func removeUser(deletePushToken: Swift.Bool = false)
 }
 public enum ReachabilityError : Swift.Error {
   case failedToCreateWithAddress(Darwin.sockaddr_in)

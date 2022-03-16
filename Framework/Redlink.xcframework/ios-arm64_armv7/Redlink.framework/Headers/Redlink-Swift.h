@@ -444,7 +444,10 @@ SWIFT_CLASS("_TtC7Redlink15RedlinkUserData")
 /// Updates user data. Should be invoked every time user data has changed.
 - (void)saveUser;
 /// Removes all stored user data
-- (void)removeUser;
+/// \param deletePushToken If <code>true</code> current device token will be removed from receiving push notifications.
+/// To add it back again <code>saveUser</code> method needs to be invoked.
+///
+- (void)removeUserWithDeletePushToken:(BOOL)deletePushToken;
 @end
 
 
@@ -901,7 +904,10 @@ SWIFT_CLASS("_TtC7Redlink15RedlinkUserData")
 /// Updates user data. Should be invoked every time user data has changed.
 - (void)saveUser;
 /// Removes all stored user data
-- (void)removeUser;
+/// \param deletePushToken If <code>true</code> current device token will be removed from receiving push notifications.
+/// To add it back again <code>saveUser</code> method needs to be invoked.
+///
+- (void)removeUserWithDeletePushToken:(BOOL)deletePushToken;
 @end
 
 
