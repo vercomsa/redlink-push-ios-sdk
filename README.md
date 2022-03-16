@@ -133,6 +133,15 @@ There is also posibility to remove all stored user data. To do that call:
 ```swift
 Redlink.user.removeUser()
 ```
+If you want also to unsubscribe user from Redlink Push Notification Services you can also use additional parameter while removing user like so:
+```swift
+Redlink.user.removeUser(deletePushToken: true)
+```
+You can use that when the user did sign out and you don't want to send notifications for that user.
+To make the current user's device to receive push notifications back again you need to call:
+```swift
+Redlink.user.saveUser()
+```
 ## Analytics
 
 In order to track custom user events use `RedlinkAnalytics` class. It can be accessed in:
