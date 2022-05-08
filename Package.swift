@@ -32,7 +32,7 @@ let package = Package(
         ),
         .binaryTarget(
             name: "Redlink",
-            path: "Framework/Redlink.xcframework"
+            path: "Framework/SPM/Redlink.xcframework"
         ),
     ]
 )
