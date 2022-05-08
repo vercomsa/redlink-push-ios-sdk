@@ -445,6 +445,7 @@ SWIFT_CLASS("_TtC7Redlink15RedlinkUserData")
 @property (nonatomic, copy) NSString * _Nullable firstName;
 @property (nonatomic, copy) NSString * _Nullable lastName;
 @property (nonatomic, copy) NSString * _Nullable companyName;
+@property (nonatomic, copy) NSString * _Nullable externalId;
 /// Any is String or Int or Bool or Date. Any other type of value will be ignored and removed automatically
 @property (nonatomic, copy) NSDictionary<NSString *, id> * _Nonnull customParameters;
 /// Updates user data. Should be invoked every time user data has changed.
@@ -911,6 +912,7 @@ SWIFT_CLASS("_TtC7Redlink15RedlinkUserData")
 @property (nonatomic, copy) NSString * _Nullable firstName;
 @property (nonatomic, copy) NSString * _Nullable lastName;
 @property (nonatomic, copy) NSString * _Nullable companyName;
+@property (nonatomic, copy) NSString * _Nullable externalId;
 /// Any is String or Int or Bool or Date. Any other type of value will be ignored and removed automatically
 @property (nonatomic, copy) NSDictionary<NSString *, id> * _Nonnull customParameters;
 /// Updates user data. Should be invoked every time user data has changed.
