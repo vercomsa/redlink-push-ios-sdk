@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		kM1pxg7xB9Gt75RicacIi/vyOQM=
+		M85XNElCe4KADlB1iuuMOwff2eo=
 		</data>
 		<key>Headers/Redlink-Swift.h</key>
 		<data>
-		1L0HPmsLM9foYJjo7Yhy1JjCU/Q=
+		mbzryMzqAAB/DCHqlbUPqymB+xU=
 		</data>
 		<key>Headers/Redlink.h</key>
 		<data>
@@ -22,31 +22,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ayGIM6g/7Z+P4GajuPMD/KzIDEs=
+		A0ehpU29pnYCdiDcB5WGRu/Y7Ow=
 		</data>
 		<key>Modules/Redlink.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		kPJcYYF7yBsXhNnDMmEZ/f4e0ro=
+		lrZM+Mo5pH0katvaYS+RPPoHMUk=
 		</data>
 		<key>Modules/Redlink.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		JfvIKdmSs4ILQ0UMMGNHGX1VBdI=
+		Ap4QT9sLtG30CuGMkrEgwo1Ni24=
 		</data>
 		<key>Modules/Redlink.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		e+Gikd0t4jHtSFWdF8fK2Mn9Law=
+		kzTgw/voDGN7PUHDFVCd6vnXATg=
 		</data>
 		<key>Modules/Redlink.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<data>
-		qz7nU1h9SkO0Zz1THZy47BmfcRI=
+		Bs8YApPUekQPNXQPm+jnlabIyZc=
 		</data>
 		<key>Modules/Redlink.swiftmodule/armv7-apple-ios.swiftinterface</key>
 		<data>
-		VN3ahnpEPFcKFLtbtrwDsbbMeuQ=
+		xN8Eu97atbAmW25ITgkTYw6I52E=
 		</data>
 		<key>Modules/Redlink.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<data>
-		qH3poyoz3LnyQix07Yu5xOsR6N0=
+		Ma3b25gGRAPopeDCrvDWCnto6Xk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -77,22 +77,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kM1pxg7xB9Gt75RicacIi/vyOQM=
+			M85XNElCe4KADlB1iuuMOwff2eo=
 			</data>
 			<key>hash2</key>
 			<data>
-			9uUxXoWeH4HE9gDkcX4vcRzDtbsxbCdM6Kg5AmvBKKk=
+			cuVplYHCaHXWCjzZ53ZbPKH9NJ3RA67ts0W/9UstIKY=
 			</data>
 		</dict>
 		<key>Headers/Redlink-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1L0HPmsLM9foYJjo7Yhy1JjCU/Q=
+			mbzryMzqAAB/DCHqlbUPqymB+xU=
 			</data>
 			<key>hash2</key>
 			<data>
-			wStHVgorpwwvs711iMlSxu8e1NeG5khp0boYY9YzCp8=
+			xLFXPn81DS4NJ+EQscYahCyuvXJt4omtOsey+PB8JbY=
 			</data>
 		</dict>
 		<key>Headers/Redlink.h</key>
@@ -121,66 +121,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kPJcYYF7yBsXhNnDMmEZ/f4e0ro=
+			lrZM+Mo5pH0katvaYS+RPPoHMUk=
 			</data>
 			<key>hash2</key>
 			<data>
-			FhCpOTUIDbYPaoMpC3dPXzOBqb6Y9mb0VNRuTE4MwsI=
+			tLrXARTBiSqvbOTEIXTERK/MKXZZUXHyoIPL1E5lljo=
 			</data>
 		</dict>
 		<key>Modules/Redlink.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JfvIKdmSs4ILQ0UMMGNHGX1VBdI=
+			Ap4QT9sLtG30CuGMkrEgwo1Ni24=
 			</data>
 			<key>hash2</key>
 			<data>
-			NV5bBbuKz0MTRvf8dLpRrOLqsy1PUbgCT6//fs/iY9o=
+			w/e8QVRoqtG6mM2YJUw7q+juK55RVejKO6auy4MA/o0=
 			</data>
 		</dict>
 		<key>Modules/Redlink.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			e+Gikd0t4jHtSFWdF8fK2Mn9Law=
+			kzTgw/voDGN7PUHDFVCd6vnXATg=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ddvy5LxzbQ6foqOHZ/fMWx8tbqN7Gk8SudMjwPAVLXE=
+			DvfE1558Y241xa7nKuGqyS8nhLQyZd9uyWFOSrpCSzo=
 			</data>
 		</dict>
 		<key>Modules/Redlink.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qz7nU1h9SkO0Zz1THZy47BmfcRI=
+			Bs8YApPUekQPNXQPm+jnlabIyZc=
 			</data>
 			<key>hash2</key>
 			<data>
-			Lr9ZlzN3t+Xx1AwOZlRQIM9UHpkp7y8VHvECPucQ950=
+			+N450CmTkM6aRr9fxzpt1YFIdNNieg3zgHcLxkLvSMM=
 			</data>
 		</dict>
 		<key>Modules/Redlink.swiftmodule/armv7-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VN3ahnpEPFcKFLtbtrwDsbbMeuQ=
+			xN8Eu97atbAmW25ITgkTYw6I52E=
 			</data>
 			<key>hash2</key>
 			<data>
-			kdVbUEMlJSGtmprNM5HdObgRlGPljybT5ZC/GH0wmEA=
+			j/mfeNKbCDdGpehNFo9idlXxbUNmcFGE7GY8VIpxQrE=
 			</data>
 		</dict>
 		<key>Modules/Redlink.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qH3poyoz3LnyQix07Yu5xOsR6N0=
+			Ma3b25gGRAPopeDCrvDWCnto6Xk=
 			</data>
 			<key>hash2</key>
 			<data>
-			GIRfPId8tLw1VA0vPcL8xXiOPYHEhbUKG0CvyMw/h8U=
+			f0ghCvO8iegDx8QAgOmaN+lgWHdEAUIFiBOVPz2T17s=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

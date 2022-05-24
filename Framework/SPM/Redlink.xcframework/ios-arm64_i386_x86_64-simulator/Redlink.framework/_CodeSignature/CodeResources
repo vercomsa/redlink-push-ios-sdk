@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		kM1pxg7xB9Gt75RicacIi/vyOQM=
+		M85XNElCe4KADlB1iuuMOwff2eo=
 		</data>
 		<key>Headers/Redlink-Swift.h</key>
 		<data>
-		cvgIE/M5UYZfSpNG8UHe8kTWt28=
+		o0ymCWoC5ZzRQaV5bVZM69Ifjgw=
 		</data>
 		<key>Headers/Redlink.h</key>
 		<data>
@@ -22,43 +22,43 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		0cyu/v4fUBtG/XmEORbSX5zjTNg=
+		mj9CN0eIyWKvVRQUj1STBpiENss=
 		</data>
 		<key>Modules/Redlink.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Fmups0OJVUthE/tSfyzsfW5Z1d0=
+		QOceTkxFe+ibuNZmaAH+CUD6Ao0=
 		</data>
 		<key>Modules/Redlink.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		2P3V2Hxv4QPIVRyGDYNu+szUXhc=
+		XrGaW/SvJ/Ebfis5BlSca4UvUdQ=
 		</data>
 		<key>Modules/Redlink.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		i+WC/op0AoY/e6GVvoIsS9wG/pQ=
+		I8uZT0+Y7kORfF0YBB+EyDCbkdg=
 		</data>
 		<key>Modules/Redlink.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
-		YRPcyPrUSub3wwFM+vx+rXgaeUQ=
+		7K3mv+6zdcUFZdUPdd0fBk+pBXo=
 		</data>
 		<key>Modules/Redlink.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<data>
-		fJn8PM+K+KcEiM7auOIgq8xK+cM=
+		wh2/QDaslAqyk5WyoW+YMVC1jCY=
 		</data>
 		<key>Modules/Redlink.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		OOUod0me5hgJgkeugpI1/WSwDQQ=
+		Q8mNgup5gy6+HD1YcKgwv13rflc=
 		</data>
 		<key>Modules/Redlink.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		fsahmwoXcR2mlJFGCgh+QoXmTt4=
+		sLKhRBo2CQ9bRPYdAySgxwxMfXc=
 		</data>
 		<key>Modules/Redlink.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		dVawcKwOy5Sn7RqR0W2ufqgQkoQ=
+		JTQgaijjtFMm4+PGUipZvDKLoCk=
 		</data>
 		<key>Modules/Redlink.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		9cD8ihscsLAo4kOu5MxrRsy8X74=
+		9kiy2PKQcQcHUR5yrVauyT56+fo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -89,22 +89,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kM1pxg7xB9Gt75RicacIi/vyOQM=
+			M85XNElCe4KADlB1iuuMOwff2eo=
 			</data>
 			<key>hash2</key>
 			<data>
-			9uUxXoWeH4HE9gDkcX4vcRzDtbsxbCdM6Kg5AmvBKKk=
+			cuVplYHCaHXWCjzZ53ZbPKH9NJ3RA67ts0W/9UstIKY=
 			</data>
 		</dict>
 		<key>Headers/Redlink-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cvgIE/M5UYZfSpNG8UHe8kTWt28=
+			o0ymCWoC5ZzRQaV5bVZM69Ifjgw=
 			</data>
 			<key>hash2</key>
 			<data>
-			cFLLTLG0BKToseq6SSyWB/2v0TZPabYUiSdN6bvt8LQ=
+			n/yqUio6hhdODK2AwVgUitQ3o2+IN/BuawrssSjUX1Y=
 			</data>
 		</dict>
 		<key>Headers/Redlink.h</key>
@@ -133,99 +133,99 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Fmups0OJVUthE/tSfyzsfW5Z1d0=
+			QOceTkxFe+ibuNZmaAH+CUD6Ao0=
 			</data>
 			<key>hash2</key>
 			<data>
-			HfUIcstP3aVSYvdFUyuLiZHPu9oWmrf5bhO1WYXKvpk=
+			dGi/a9FM0S7cJ6dnNLHfmBWT4k/9j/1keOAdD76ahLs=
 			</data>
 		</dict>
 		<key>Modules/Redlink.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2P3V2Hxv4QPIVRyGDYNu+szUXhc=
+			XrGaW/SvJ/Ebfis5BlSca4UvUdQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			TY9hr3JqhQh3qQ1alBLT9kqfzEKAgMEhjsUMFgxkj9Q=
+			DttOSFrLjvwKZVZ2unpAUOR/JJM8vsxmJyGC3QQ0brU=
 			</data>
 		</dict>
 		<key>Modules/Redlink.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			i+WC/op0AoY/e6GVvoIsS9wG/pQ=
+			I8uZT0+Y7kORfF0YBB+EyDCbkdg=
 			</data>
 			<key>hash2</key>
 			<data>
-			QWmYBsP6maDVVgugCNZ7ZOzSlzsizccuuqMtTeSJ5Y8=
+			+aGCbmGHhOZcR1rD2Y+qJMM4s0jHgk+aak3oP7NIaGE=
 			</data>
 		</dict>
 		<key>Modules/Redlink.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YRPcyPrUSub3wwFM+vx+rXgaeUQ=
+			7K3mv+6zdcUFZdUPdd0fBk+pBXo=
 			</data>
 			<key>hash2</key>
 			<data>
-			MbB8bcQRUl7XDMkCrTgo0QdOKstkVw4iXzDUGoq5Wkk=
+			rjbisj2XdtvHr9eLQtiBA0lCec9H7ll2KsxCZxwJ7DA=
 			</data>
 		</dict>
 		<key>Modules/Redlink.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fJn8PM+K+KcEiM7auOIgq8xK+cM=
+			wh2/QDaslAqyk5WyoW+YMVC1jCY=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZvHYnFM1ycMEHZuL0DfYvlLB3l+DtC2uZBMQCbTNEDM=
+			45QHSwAHFeYIsRC5WQRvDeLyjw1Fwp2KXELJ9f7K8aw=
 			</data>
 		</dict>
 		<key>Modules/Redlink.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OOUod0me5hgJgkeugpI1/WSwDQQ=
+			Q8mNgup5gy6+HD1YcKgwv13rflc=
 			</data>
 			<key>hash2</key>
 			<data>
-			jpofQu8aCp2TXXejKyK0XdQvR6jt9yzy4k57j/uE9fY=
+			FdqLRY0roq9azy9RqSmD3dCk7YnLZEU9Xa68bxfIDzQ=
 			</data>
 		</dict>
 		<key>Modules/Redlink.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fsahmwoXcR2mlJFGCgh+QoXmTt4=
+			sLKhRBo2CQ9bRPYdAySgxwxMfXc=
 			</data>
 			<key>hash2</key>
 			<data>
-			Jk9YAMmZeoeahGZZ5zpOQYPh85POHb2aVO1iXd+KqjA=
+			WepyULMsFOnPy11rA1cBOeh1noqo64MVCa0zV7DGDr0=
 			</data>
 		</dict>
 		<key>Modules/Redlink.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dVawcKwOy5Sn7RqR0W2ufqgQkoQ=
+			JTQgaijjtFMm4+PGUipZvDKLoCk=
 			</data>
 			<key>hash2</key>
 			<data>
-			NxTspNmDdA/mFFdr+juXXezi6D+gRygEVSJrZY+beHY=
+			vD5UcOy/KoRJblYJOMQ70+8BjlolPwwzaVmEinujDQE=
 			</data>
 		</dict>
 		<key>Modules/Redlink.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9cD8ihscsLAo4kOu5MxrRsy8X74=
+			9kiy2PKQcQcHUR5yrVauyT56+fo=
 			</data>
 			<key>hash2</key>
 			<data>
-			qbLiJyP0J7AKT5mWEd+fkSNuAGFWTubjh51dDcjNvCE=
+			M6fNzA6w9G9yEU3JzAUBuKGTVYxRTYvPg1y2fWXVo+I=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
