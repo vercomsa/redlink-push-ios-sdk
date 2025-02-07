@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "Redlink",
+    "printedName": "Redlink",
     "children": [
       {
         "kind": "Import",
@@ -382,6 +382,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1466,6 +1480,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1759,6 +1787,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Error",
             "printedName": "Error",
             "usr": "s:s5ErrorP",
@@ -2039,6 +2081,20 @@
               "AccessControl"
             ],
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "Equatable",
@@ -3022,6 +3078,22 @@
         "moduleName": "Redlink",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -3157,6 +3229,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -3418,6 +3504,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -3777,6 +3877,27 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -3989,6 +4110,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -4515,6 +4650,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -4614,7 +4763,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "Redlink.RedlinkPushDelegate?"
+                "printedName": "(any Redlink.RedlinkPushDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -4640,12 +4789,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Redlink.RedlinkPushDelegate?",
+                    "printedName": "(any Redlink.RedlinkPushDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "RedlinkPushDelegate",
-                        "printedName": "Redlink.RedlinkPushDelegate",
+                        "printedName": "any Redlink.RedlinkPushDelegate",
                         "usr": "c:@M@Redlink@objc(pl)RedlinkPushDelegate"
                       }
                     ],
@@ -4675,12 +4824,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Redlink.RedlinkPushDelegate?",
+                    "printedName": "(any Redlink.RedlinkPushDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "RedlinkPushDelegate",
-                        "printedName": "Redlink.RedlinkPushDelegate",
+                        "printedName": "any Redlink.RedlinkPushDelegate",
                         "usr": "c:@M@Redlink@objc(pl)RedlinkPushDelegate"
                       }
                     ],
@@ -4895,7 +5044,7 @@
           {
             "kind": "Function",
             "name": "didRegisterForRemoteNotifications",
-            "printedName": "didRegisterForRemoteNotifications(with:)",
+            "printedName": "didRegisterForRemoteNotifications(with:forceTokenUpdate:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -4907,13 +5056,20 @@
                 "name": "Data",
                 "printedName": "Foundation.Data",
                 "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@CM@Redlink@objc(cs)RedlinkPush(im)didRegisterForRemoteNotificationsWith:",
-            "mangledName": "$s7Redlink0A4PushC33didRegisterForRemoteNotifications4withy10Foundation4DataV_tF",
+            "usr": "c:@CM@Redlink@objc(cs)RedlinkPush(im)didRegisterForRemoteNotificationsWith:forceTokenUpdate:",
+            "mangledName": "$s7Redlink0A4PushC33didRegisterForRemoteNotifications4with16forceTokenUpdatey10Foundation4DataV_SbtF",
             "moduleName": "Redlink",
-            "objc_name": "didRegisterForRemoteNotificationsWith:",
+            "objc_name": "didRegisterForRemoteNotificationsWith:forceTokenUpdate:",
             "declAttributes": [
               "Dynamic",
               "AccessControl",
@@ -4935,7 +5091,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
@@ -5079,6 +5235,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -5436,6 +5606,22 @@
         "declAttributes": [
           "AccessControl",
           "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -5547,6 +5733,34 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Redlink"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Redlink"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Redlink"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "Redlink"
       },
       {
         "kind": "TypeDecl",
@@ -5704,6 +5918,20 @@
             "printedName": "Comparable",
             "usr": "s:SL",
             "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -5884,6 +6112,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "_FormatSpecifiable",
             "printedName": "_FormatSpecifiable",
             "children": [
@@ -5925,6 +6160,28 @@
             ],
             "usr": "s:s21_ObjectiveCBridgeableP",
             "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_FormatSpecifiable",
+            "printedName": "_FormatSpecifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_Arg",
+                "printedName": "_Arg",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI18_FormatSpecifiableP",
+            "mangledName": "$s7SwiftUI18_FormatSpecifiableP"
           },
           {
             "kind": "Conformance",
@@ -5993,10 +6250,25 @@
         "mangledName": "$sSS",
         "moduleName": "Swift",
         "declAttributes": [
+          "EagerMove",
           "Frozen"
         ],
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -6518,6 +6790,35 @@
           },
           {
             "kind": "Conformance",
+            "name": "Transferable",
+            "printedName": "Transferable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Representation",
+                "printedName": "Representation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some CoreTransferable.TransferRepresentation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferRepresentation",
+                        "printedName": "CoreTransferable.TransferRepresentation",
+                        "usr": "s:16CoreTransferable22TransferRepresentationP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:16CoreTransferable0B0P",
+            "mangledName": "$s16CoreTransferable0B0P"
+          },
+          {
+            "kind": "Conformance",
             "name": "Binding",
             "printedName": "Binding",
             "usr": "s:6SQLite7BindingP",
@@ -6586,6 +6887,20 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -6681,6 +6996,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "_ObjectiveCBridgeable",
             "printedName": "_ObjectiveCBridgeable",
             "children": [
@@ -6760,33 +7082,19 @@
         "usr": "s:10Foundation4DataV",
         "mangledName": "$s10Foundation4DataV",
         "moduleName": "Foundation",
+        "intro_Macosx": "10.10",
+        "intro_iOS": "8.0",
+        "intro_tvOS": "9.0",
+        "intro_watchOS": "2.0",
         "declAttributes": [
-          "Frozen"
+          "Frozen",
+          "Available",
+          "Available",
+          "Available",
+          "Available"
         ],
         "isExternal": true,
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "ReferenceConvertible",
-            "printedName": "ReferenceConvertible",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ReferenceType",
-                "printedName": "ReferenceType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NSData",
-                    "printedName": "Foundation.NSData",
-                    "usr": "c:objc(cs)NSData"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:10Foundation20ReferenceConvertibleP",
-            "mangledName": "$s10Foundation20ReferenceConvertibleP"
-          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -7179,24 +7487,39 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
-            "name": "CustomReflectable",
-            "printedName": "CustomReflectable",
-            "usr": "s:s17CustomReflectableP",
-            "mangledName": "$ss17CustomReflectableP"
+            "name": "ReferenceConvertible",
+            "printedName": "ReferenceConvertible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReferenceType",
+                "printedName": "ReferenceType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSData",
+                    "printedName": "Foundation.NSData",
+                    "usr": "c:objc(cs)NSData"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation20ReferenceConvertibleP",
+            "mangledName": "$s10Foundation20ReferenceConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -7222,6 +7545,27 @@
           },
           {
             "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -7233,6 +7577,35 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Transferable",
+            "printedName": "Transferable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Representation",
+                "printedName": "Representation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some CoreTransferable.TransferRepresentation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferRepresentation",
+                        "printedName": "CoreTransferable.TransferRepresentation",
+                        "usr": "s:16CoreTransferable22TransferRepresentationP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:16CoreTransferable0B0P",
+            "mangledName": "$s16CoreTransferable0B0P"
           },
           {
             "kind": "Conformance",
@@ -7348,6 +7721,20 @@
         "isFromExtension": true,
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "_ObjectiveCBridgeable",
@@ -7474,6 +7861,7 @@
             "mangledName": "$sSo8UIWindowC7RedlinkE24getVisibleViewControllerySo06UIViewF0CSgAGF",
             "moduleName": "Redlink",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -7489,6 +7877,7 @@
         "intro_iOS": "2.0",
         "objc_name": "UIWindow",
         "declAttributes": [
+          "Preconcurrency",
           "Available",
           "ObjC",
           "NonSendable",
@@ -7504,6 +7893,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -7552,6 +7955,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           },
           {
             "kind": "Conformance",
@@ -7604,84 +8014,77 @@
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkEvent.swift",
       "kind": "StringLiteral",
-      "offset": 650,
+      "offset": 657,
       "length": 8,
       "value": "\"uuidId\""
     },
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkEvent.swift",
       "kind": "StringLiteral",
-      "offset": 713,
+      "offset": 727,
       "length": 8,
       "value": "\"pushId\""
     },
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkEvent.swift",
       "kind": "StringLiteral",
-      "offset": 774,
+      "offset": 795,
       "length": 11,
       "value": "\"eventName\""
     },
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkEvent.swift",
       "kind": "StringLiteral",
-      "offset": 849,
+      "offset": 877,
       "length": 11,
       "value": "\"createdAt\""
     },
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkEvent.swift",
       "kind": "StringLiteral",
-      "offset": 930,
+      "offset": 965,
       "length": 24,
       "value": "\"additionalStringFields\""
     },
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1025,
+      "offset": 1067,
       "length": 25,
       "value": "\"additionalNumericFields\""
     },
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1118,
+      "offset": 1167,
       "length": 22,
       "value": "\"additionalBoolFields\""
     },
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1208,
+      "offset": 1264,
       "length": 22,
       "value": "\"additionalDateFields\""
     },
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1288,
+      "offset": 1351,
       "length": 10,
       "value": "\"userData\""
     },
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkEvent.swift",
       "kind": "Dictionary",
-      "offset": 1917,
+      "offset": 1980,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2324,
-      "length": 11,
-      "value": "\"eventName\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2324,
+      "offset": 2387,
       "length": 11,
       "value": "\"eventName\""
     },
@@ -7707,13 +8110,6 @@
       "value": "\"appId\""
     },
     {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Analytics\/RedlinkAnalyticsEventPostOperation.swift",
-      "kind": "StringLiteral",
-      "offset": 200,
-      "length": 34,
-      "value": "\"Redlink.RedlinkAnalyticsEventPostOperation\""
-    },
-    {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Networking\/Service\/HTTPMethod.swift",
       "kind": "StringLiteral",
       "offset": 325,
@@ -7749,74 +8145,18 @@
       "value": "\"DELETE\""
     },
     {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Networking\/Service\/HTTPMethod.swift",
+      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkUnsubscribeToken.swift",
       "kind": "StringLiteral",
-      "offset": 325,
-      "length": 5,
-      "value": "\"GET\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Networking\/Service\/HTTPMethod.swift",
-      "kind": "StringLiteral",
-      "offset": 347,
-      "length": 6,
-      "value": "\"POST\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Networking\/Service\/HTTPMethod.swift",
-      "kind": "StringLiteral",
-      "offset": 369,
-      "length": 5,
-      "value": "\"PUT\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Networking\/Service\/HTTPMethod.swift",
-      "kind": "StringLiteral",
-      "offset": 392,
-      "length": 7,
-      "value": "\"PATCH\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Networking\/Service\/HTTPMethod.swift",
-      "kind": "StringLiteral",
-      "offset": 418,
-      "length": 8,
-      "value": "\"DELETE\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Promise\/Promise.swift",
-      "kind": "StringLiteral",
-      "offset": 395,
-      "length": 7,
-      "value": "\"Redlink.Promise\""
+      "offset": 413,
+      "length": 14,
+      "value": "\"user_profile\""
     },
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkUnsubscribeToken.swift",
       "kind": "StringLiteral",
-      "offset": 391,
+      "offset": 520,
       "length": 19,
       "value": "\"unsubscribe_token\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkUnsubscribeToken.swift",
-      "kind": "StringLiteral",
-      "offset": 391,
-      "length": 19,
-      "value": "\"unsubscribe_token\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Networking\/Encoding\/URLParameterEncoder.swift",
-      "kind": "StringLiteral",
-      "offset": 243,
-      "length": 25,
-      "value": "\"Given URL is not valid.\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Networking\/Encoding\/URLParameterEncoder.swift",
-      "kind": "StringLiteral",
-      "offset": 295,
-      "length": 27,
-      "value": "\"Parameter encoding failed\""
     },
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Networking\/Encoding\/URLParameterEncoder.swift",
@@ -7873,13 +8213,6 @@
       "offset": 4233,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Analytics\/RedlinkAnalytics.swift",
-      "kind": "StringLiteral",
-      "offset": 194,
-      "length": 16,
-      "value": "\"Redlink.RedlinkAnalytics\""
     },
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Analytics\/RedlinkAnalytics.swift",
@@ -8121,17 +8454,10 @@
     },
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Common\/Operations\/AsynchronusOperation.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2811,
-      "length": 9,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Common\/Operations\/AsynchronusOperation.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2830,
-      "length": 8,
-      "value": "2"
+      "kind": "BooleanLiteral",
+      "offset": 1488,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Common\/Operations\/AsynchronusOperation.swift",
@@ -8146,41 +8472,6 @@
       "offset": 2830,
       "length": 8,
       "value": "2"
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Logger\/RedlinkLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 460,
-      "length": 19,
-      "value": "\"🔭 VERBOSE 🔭\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Logger\/RedlinkLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 501,
-      "length": 17,
-      "value": "\"💬 DEBUG 💬\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Logger\/RedlinkLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 539,
-      "length": 20,
-      "value": "\"ℹ️ INFO ℹ️\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Logger\/RedlinkLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 583,
-      "length": 17,
-      "value": "\"❌ WARNING ❌\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Logger\/RedlinkLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 622,
-      "length": 17,
-      "value": "\"💥 ERROR 💥\""
     },
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Logger\/RedlinkLogger.swift",
@@ -8237,55 +8528,6 @@
       "offset": 1306,
       "length": 8,
       "value": "\"custom\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkUser.swift",
-      "kind": "StringLiteral",
-      "offset": 1259,
-      "length": 14,
-      "value": "\"user_profile\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkUser.swift",
-      "kind": "StringLiteral",
-      "offset": 1306,
-      "length": 8,
-      "value": "\"custom\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkUser.swift",
-      "kind": "StringLiteral",
-      "offset": 1408,
-      "length": 8,
-      "value": "\"number\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkUser.swift",
-      "kind": "StringLiteral",
-      "offset": 1430,
-      "length": 12,
-      "value": "\"first_name\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkUser.swift",
-      "kind": "StringLiteral",
-      "offset": 1455,
-      "length": 11,
-      "value": "\"last_name\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkUser.swift",
-      "kind": "StringLiteral",
-      "offset": 1482,
-      "length": 14,
-      "value": "\"company_name\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkUser.swift",
-      "kind": "StringLiteral",
-      "offset": 1511,
-      "length": 13,
-      "value": "\"external_id\""
     },
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkUser.swift",
@@ -8360,58 +8602,9 @@
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkNotificationPayload.swift",
       "kind": "StringLiteral",
-      "offset": 1202,
-      "length": 17,
-      "value": "\"registration_id\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkNotificationPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 1244,
-      "length": 16,
-      "value": "\"action_buttons\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkNotificationPayload.swift",
-      "kind": "StringLiteral",
       "offset": 1373,
       "length": 13,
       "value": "\"category_id\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkNotificationPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 1373,
-      "length": 13,
-      "value": "\"category_id\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkNotificationAction.swift",
-      "kind": "StringLiteral",
-      "offset": 295,
-      "length": 9,
-      "value": "\"BROWSER\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkNotificationAction.swift",
-      "kind": "StringLiteral",
-      "offset": 329,
-      "length": 10,
-      "value": "\"DEEPLINK\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkNotificationAction.swift",
-      "kind": "StringLiteral",
-      "offset": 363,
-      "length": 9,
-      "value": "\"WEBVIEW\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkNotificationAction.swift",
-      "kind": "StringLiteral",
-      "offset": 393,
-      "length": 6,
-      "value": "\"NONE\""
     },
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkNotificationAction.swift",
@@ -8498,34 +8691,6 @@
       "value": "\"date_fields\""
     },
     {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkCustomParameters.swift",
-      "kind": "StringLiteral",
-      "offset": 1982,
-      "length": 16,
-      "value": "\"boolean_fields\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkCustomParameters.swift",
-      "kind": "StringLiteral",
-      "offset": 2016,
-      "length": 16,
-      "value": "\"integer_fields\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkCustomParameters.swift",
-      "kind": "StringLiteral",
-      "offset": 2049,
-      "length": 15,
-      "value": "\"string_fields\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkCustomParameters.swift",
-      "kind": "StringLiteral",
-      "offset": 2079,
-      "length": 13,
-      "value": "\"date_fields\""
-    },
-    {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 279,
@@ -8580,41 +8745,6 @@
       "offset": 1596,
       "length": 2,
       "value": "10"
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1896,
-      "length": 13,
-      "value": "\"phone_model\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1927,
-      "length": 16,
-      "value": "\"system_version\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1958,
-      "length": 13,
-      "value": "\"system_name\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1984,
-      "length": 11,
-      "value": "\"vendor_id\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 2008,
-      "length": 10,
-      "value": "\"language\""
     },
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Constants.swift",
@@ -8960,237 +9090,6 @@
       "value": "\"SEE_MORE\""
     },
     {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Push\/Categories\/PushNotificationCategories.swift",
-      "kind": "StringLiteral",
-      "offset": 430,
-      "length": 10,
-      "value": "\"DECISION\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Push\/Categories\/PushNotificationCategories.swift",
-      "kind": "StringLiteral",
-      "offset": 473,
-      "length": 19,
-      "value": "\"DECISION_INVERTED\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Push\/Categories\/PushNotificationCategories.swift",
-      "kind": "StringLiteral",
-      "offset": 519,
-      "length": 12,
-      "value": "\"ACCEPTANCE\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Push\/Categories\/PushNotificationCategories.swift",
-      "kind": "StringLiteral",
-      "offset": 566,
-      "length": 21,
-      "value": "\"ACCEPTANCE_INVERTED\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Push\/Categories\/PushNotificationCategories.swift",
-      "kind": "StringLiteral",
-      "offset": 615,
-      "length": 14,
-      "value": "\"SHOPPING_NOW\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Push\/Categories\/PushNotificationCategories.swift",
-      "kind": "StringLiteral",
-      "offset": 665,
-      "length": 23,
-      "value": "\"SHOPPING_NOW_INVERTED\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Push\/Categories\/PushNotificationCategories.swift",
-      "kind": "StringLiteral",
-      "offset": 717,
-      "length": 15,
-      "value": "\"SHOPPING_CART\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Push\/Categories\/PushNotificationCategories.swift",
-      "kind": "StringLiteral",
-      "offset": 769,
-      "length": 24,
-      "value": "\"SHOPPING_CART_INVERTED\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Push\/Categories\/PushNotificationCategories.swift",
-      "kind": "StringLiteral",
-      "offset": 817,
-      "length": 9,
-      "value": "\"OPENING\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Push\/Categories\/PushNotificationCategories.swift",
-      "kind": "StringLiteral",
-      "offset": 858,
-      "length": 18,
-      "value": "\"OPENING_INVERTED\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Push\/Categories\/PushNotificationCategories.swift",
-      "kind": "StringLiteral",
-      "offset": 903,
-      "length": 13,
-      "value": "\"LOGIN_CLOSE\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Push\/Categories\/PushNotificationCategories.swift",
-      "kind": "StringLiteral",
-      "offset": 951,
-      "length": 22,
-      "value": "\"LOGIN_CLOSE_INVERTED\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Push\/Categories\/PushNotificationCategories.swift",
-      "kind": "StringLiteral",
-      "offset": 997,
-      "length": 9,
-      "value": "\"SHARING\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Push\/Categories\/PushNotificationCategories.swift",
-      "kind": "StringLiteral",
-      "offset": 1038,
-      "length": 18,
-      "value": "\"SHARING_INVERTED\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Push\/Categories\/PushNotificationCategories.swift",
-      "kind": "StringLiteral",
-      "offset": 1082,
-      "length": 12,
-      "value": "\"MORE_CLOSE\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Push\/Categories\/PushNotificationCategories.swift",
-      "kind": "StringLiteral",
-      "offset": 1128,
-      "length": 21,
-      "value": "\"MORE_CLOSE_INVERTED\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Push\/Categories\/PushNotificationCategories.swift",
-      "kind": "StringLiteral",
-      "offset": 1169,
-      "length": 5,
-      "value": "\"YES\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Push\/Categories\/PushNotificationCategories.swift",
-      "kind": "StringLiteral",
-      "offset": 1193,
-      "length": 4,
-      "value": "\"NO\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Push\/Categories\/PushNotificationCategories.swift",
-      "kind": "StringLiteral",
-      "offset": 1220,
-      "length": 8,
-      "value": "\"ACCEPT\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Push\/Categories\/PushNotificationCategories.swift",
-      "kind": "StringLiteral",
-      "offset": 1252,
-      "length": 9,
-      "value": "\"DECLINE\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Push\/Categories\/PushNotificationCategories.swift",
-      "kind": "StringLiteral",
-      "offset": 1284,
-      "length": 9,
-      "value": "\"BUY_NOW\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Push\/Categories\/PushNotificationCategories.swift",
-      "kind": "StringLiteral",
-      "offset": 1315,
-      "length": 7,
-      "value": "\"LATER\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Push\/Categories\/PushNotificationCategories.swift",
-      "kind": "StringLiteral",
-      "offset": 1348,
-      "length": 13,
-      "value": "\"ADD_TO_CART\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Push\/Categories\/PushNotificationCategories.swift",
-      "kind": "StringLiteral",
-      "offset": 1386,
-      "length": 11,
-      "value": "\"NO_THANKS\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Push\/Categories\/PushNotificationCategories.swift",
-      "kind": "StringLiteral",
-      "offset": 1418,
-      "length": 6,
-      "value": "\"OPEN\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Push\/Categories\/PushNotificationCategories.swift",
-      "kind": "StringLiteral",
-      "offset": 1446,
-      "length": 7,
-      "value": "\"CLOSE\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Push\/Categories\/PushNotificationCategories.swift",
-      "kind": "StringLiteral",
-      "offset": 1475,
-      "length": 7,
-      "value": "\"LOGIN\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Push\/Categories\/PushNotificationCategories.swift",
-      "kind": "StringLiteral",
-      "offset": 1504,
-      "length": 7,
-      "value": "\"SHARE\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Push\/Categories\/PushNotificationCategories.swift",
-      "kind": "StringLiteral",
-      "offset": 1535,
-      "length": 10,
-      "value": "\"SEE_MORE\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkNotificationStatus.swift",
-      "kind": "IntegerLiteral",
-      "offset": 295,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkNotificationStatus.swift",
-      "kind": "IntegerLiteral",
-      "offset": 322,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkNotificationStatus.swift",
-      "kind": "IntegerLiteral",
-      "offset": 295,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkNotificationStatus.swift",
-      "kind": "IntegerLiteral",
-      "offset": 322,
-      "length": 1,
-      "value": "1"
-    },
-    {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkNotificationStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 295,
@@ -9224,41 +9123,6 @@
       "offset": 496,
       "length": 23,
       "value": "\"DIALOG_DISMISS_ACTION\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkNotificationStatus.swift",
-      "kind": "StringLiteral",
-      "offset": 396,
-      "length": 27,
-      "value": "\"NOTIFICATION_CLICK_ACTION\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkNotificationStatus.swift",
-      "kind": "StringLiteral",
-      "offset": 445,
-      "length": 27,
-      "value": "\"NOTIFICATION_SWIPE_ACTION\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkNotificationStatus.swift",
-      "kind": "StringLiteral",
-      "offset": 496,
-      "length": 23,
-      "value": "\"DIALOG_DISMISS_ACTION\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkNotificationStatus.swift",
-      "kind": "StringLiteral",
-      "offset": 1180,
-      "length": 17,
-      "value": "\"registration_id\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkNotificationStatus.swift",
-      "kind": "StringLiteral",
-      "offset": 1212,
-      "length": 13,
-      "value": "\"occurred_at\""
     },
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkNotificationStatus.swift",
@@ -9289,46 +9153,11 @@
       "value": "\"deviceModel\""
     },
     {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Common\/Store\/AuthData\/DeviceAuthData.swift",
-      "kind": "StringLiteral",
-      "offset": 4355,
-      "length": 18,
-      "value": "\"Redlink.MockDeviceAuthData\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Common\/Store\/AuthData\/AuthData.swift",
-      "kind": "StringLiteral",
-      "offset": 2195,
-      "length": 12,
-      "value": "\"Redlink.MockAuthData\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkDevice.swift",
-      "kind": "StringLiteral",
-      "offset": 933,
-      "length": 9,
-      "value": "\"user_id\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkDevice.swift",
-      "kind": "StringLiteral",
-      "offset": 958,
-      "length": 8,
-      "value": "\"app_id\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkDevice.swift",
-      "kind": "StringLiteral",
-      "offset": 982,
-      "length": 17,
-      "value": "\"registration_id\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkDevice.swift",
-      "kind": "StringLiteral",
-      "offset": 1031,
-      "length": 14,
-      "value": "\"mobile_agent\""
+      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Push\/RedlinkPush.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2454,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkDevice.swift",
@@ -9392,125 +9221,6 @@
       "offset": 564,
       "length": 42,
       "value": "\"Could not clear all the Keychain's data.\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Common\/Store\/KeychainAccess+Error.swift",
-      "kind": "StringLiteral",
-      "offset": 306,
-      "length": 54,
-      "value": "\"Could not encode given value to be stored as `Data`.\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Common\/Store\/KeychainAccess+Error.swift",
-      "kind": "StringLiteral",
-      "offset": 394,
-      "length": 39,
-      "value": "\"Could not write data to the Keychain.\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Common\/Store\/KeychainAccess+Error.swift",
-      "kind": "StringLiteral",
-      "offset": 468,
-      "length": 58,
-      "value": "\"Could not delete data in the Keychain for the given key.\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Common\/Store\/KeychainAccess+Error.swift",
-      "kind": "StringLiteral",
-      "offset": 564,
-      "length": 42,
-      "value": "\"Could not clear all the Keychain's data.\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Push\/Categories\/PushNotificationActions.swift",
-      "kind": "StringLiteral",
-      "offset": 415,
-      "length": 5,
-      "value": "\"YES\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Push\/Categories\/PushNotificationActions.swift",
-      "kind": "StringLiteral",
-      "offset": 439,
-      "length": 4,
-      "value": "\"NO\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Push\/Categories\/PushNotificationActions.swift",
-      "kind": "StringLiteral",
-      "offset": 466,
-      "length": 8,
-      "value": "\"ACCEPT\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Push\/Categories\/PushNotificationActions.swift",
-      "kind": "StringLiteral",
-      "offset": 498,
-      "length": 9,
-      "value": "\"DECLINE\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Push\/Categories\/PushNotificationActions.swift",
-      "kind": "StringLiteral",
-      "offset": 530,
-      "length": 9,
-      "value": "\"BUY_NOW\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Push\/Categories\/PushNotificationActions.swift",
-      "kind": "StringLiteral",
-      "offset": 561,
-      "length": 7,
-      "value": "\"LATER\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Push\/Categories\/PushNotificationActions.swift",
-      "kind": "StringLiteral",
-      "offset": 594,
-      "length": 13,
-      "value": "\"ADD_TO_CART\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Push\/Categories\/PushNotificationActions.swift",
-      "kind": "StringLiteral",
-      "offset": 632,
-      "length": 11,
-      "value": "\"NO_THANKS\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Push\/Categories\/PushNotificationActions.swift",
-      "kind": "StringLiteral",
-      "offset": 664,
-      "length": 6,
-      "value": "\"OPEN\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Push\/Categories\/PushNotificationActions.swift",
-      "kind": "StringLiteral",
-      "offset": 692,
-      "length": 7,
-      "value": "\"CLOSE\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Push\/Categories\/PushNotificationActions.swift",
-      "kind": "StringLiteral",
-      "offset": 721,
-      "length": 7,
-      "value": "\"LOGIN\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Push\/Categories\/PushNotificationActions.swift",
-      "kind": "StringLiteral",
-      "offset": 750,
-      "length": 7,
-      "value": "\"SHARE\""
-    },
-    {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Push\/Categories\/PushNotificationActions.swift",
-      "kind": "StringLiteral",
-      "offset": 781,
-      "length": 10,
-      "value": "\"SEE_MORE\""
     },
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Push\/Categories\/PushNotificationActions.swift",
@@ -9625,11 +9335,18 @@
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Common\/RedlinkWebViewController.swift",
+      "filePath": "\/Users\/michalbanaszynski\/Library\/Developer\/Xcode\/DerivedData\/Redlink-hcxwnngxostvaaehwasvapqbdkob\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Redlink\/IntermediateBuildFilesPath\/Redlink.build\/Release-iphonesimulator\/Redlink.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 186,
-      "length": 24,
-      "value": "\"Redlink.RedlinkWebViewController\""
+      "offset": 732,
+      "length": 12,
+      "value": "\"arrow-left\""
+    },
+    {
+      "filePath": "\/Users\/michalbanaszynski\/Library\/Developer\/Xcode\/DerivedData\/Redlink-hcxwnngxostvaaehwasvapqbdkob\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Redlink\/IntermediateBuildFilesPath\/Redlink.build\/Release-iphonesimulator\/Redlink.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 875,
+      "length": 13,
+      "value": "\"arrow-right\""
     }
   ]
 }

@@ -1,7 +1,7 @@
 framework module Redlink {
   umbrella header "Redlink.h"
-
   export *
+
   module * { export * }
 }
 

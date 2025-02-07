@@ -8,10 +8,10 @@
 
 Pod::Spec.new do |s|
   s.name            = "Redlink"
-  s.version = "1.1.14"
-  s.swift_version   = '4.0'
+  s.version         = "1.1.15"
+  s.swift_version   = '6.0.3'
   s.summary         = "Redlink Push Notifications"
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '14.0'
   s.homepage        = "https://www.redlink.pl"
   s.author          = { "Redlink" => "sales@redlink.pl" }
   s.license =    { :type => 'proprietary', :text => <<-LICENSE
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   }
   s.ios.vendored_frameworks = 'Framework/Redlink.xcframework'
   s.source          = { :git => 'https://github.com/vercomsa/redlink-push-ios-sdk.git', :tag => s.version.to_s }
-  s.dependency 'SQLite.swift', '0.13.2'
+  s.dependency 'SQLite.swift', '0.15.3'
   s.pod_target_xcconfig = {
     'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES'
   }  
