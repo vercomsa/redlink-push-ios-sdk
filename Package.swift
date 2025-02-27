@@ -5,34 +5,34 @@ import PackageDescription
 
 let package = Package(
     name: "Redlink",
+    platforms: [
+        .iOS(.v14)
+    ],
     products: [
         .library(
             name: "Redlink",
             targets: ["RedlinkSPMTarget"]
         ),
     ],
-    dependencies: [
-        .package(name: "SQLite.swift", url: "https://github.com/stephencelis/SQLite.swift.git", from: "0.13.3")
-    ],
+    dependencies: [],
     targets: [
         .target(
             name: "RedlinkSPMTarget",
             dependencies: [
-                .target(name: "RedlinkSPMWrapper", condition: .when(platforms: [.iOS])),
+                "RedlinkSPMWrapper"
             ],
             path: "SwiftPM-PlatformExclude/RedlinkSPMTarget"
         ),
         .target(
             name: "RedlinkSPMWrapper",
             dependencies: [
-                .target(name: "Redlink", condition: .when(platforms: [.iOS])),
-                .product(name: "SQLite", package: "SQLite.swift")
+                "Redlink"
             ],
             path: "RedlinkSPMWrapper"
         ),
         .binaryTarget(
             name: "Redlink",
             path: "Framework/SPM/Redlink.xcframework"
-        ),
+        )
     ]
 )

@@ -1,11 +1,10 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.0.3 effective-4.1.50 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 4 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name Redlink
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 4 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name Redlink
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import DeveloperToolsSupport
 import Foundation
 @_exported import Redlink
-import SQLite
 import Swift
 import SwiftUI
 import SystemConfiguration

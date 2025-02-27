@@ -477,9 +477,32 @@ SWIFT_CLASS("_TtC7Redlink11RedlinkPush")
 @class UNNotificationResponse;
 
 @interface RedlinkPush (SWIFT_EXTENSION(Redlink))
+/// Called when the app successfully registers for remote notifications and receives a device token from APNs.
+/// This method converts the device token to a string format, stores it, and sets up notification categories.
+/// \param deviceToken The device token data received from APNs
+///
+/// \param forceTokenUpdate Whether to force an update of the stored token even if it hasn’t changed
+///
 - (void)didRegisterForRemoteNotificationsWith:(NSData * _Nonnull)deviceToken forceTokenUpdate:(BOOL)forceTokenUpdate;
+/// Called when the app fails to register for remote notifications.
+/// This method logs the error that occurred during registration attempt.
+/// \param error The error that caused the registration failure
+///
 - (void)didFailToRegisterForRemoteNotificationsWith:(NSError * _Nonnull)error;
+/// Called when a notification is about to be presented while the app is in the foreground.
+/// This method handles the notification presentation, logs it, and calls the delegate if implemented.
+/// \param notification The notification that will be presented
+///
+/// \param presentationOptions The presentation options for how the notification should be shown
+///
+///
+/// returns:
+/// The presentation options to use for showing the notification
 - (UNNotificationPresentationOptions)willPresentNotification:(UNNotification * _Nonnull)notification presentationOptions:(UNNotificationPresentationOptions)presentationOptions SWIFT_WARN_UNUSED_RESULT;
+/// Called when the user responds to a delivered notification.
+/// This method handles the user’s response to a notification, including any actions they took.
+/// \param response The user’s response to the notification
+///
 - (void)didReceiveNotificationResponseWithResponse:(UNNotificationResponse * _Nonnull)response;
 @end
 
@@ -1036,9 +1059,32 @@ SWIFT_CLASS("_TtC7Redlink11RedlinkPush")
 @class UNNotificationResponse;
 
 @interface RedlinkPush (SWIFT_EXTENSION(Redlink))
+/// Called when the app successfully registers for remote notifications and receives a device token from APNs.
+/// This method converts the device token to a string format, stores it, and sets up notification categories.
+/// \param deviceToken The device token data received from APNs
+///
+/// \param forceTokenUpdate Whether to force an update of the stored token even if it hasn’t changed
+///
 - (void)didRegisterForRemoteNotificationsWith:(NSData * _Nonnull)deviceToken forceTokenUpdate:(BOOL)forceTokenUpdate;
+/// Called when the app fails to register for remote notifications.
+/// This method logs the error that occurred during registration attempt.
+/// \param error The error that caused the registration failure
+///
 - (void)didFailToRegisterForRemoteNotificationsWith:(NSError * _Nonnull)error;
+/// Called when a notification is about to be presented while the app is in the foreground.
+/// This method handles the notification presentation, logs it, and calls the delegate if implemented.
+/// \param notification The notification that will be presented
+///
+/// \param presentationOptions The presentation options for how the notification should be shown
+///
+///
+/// returns:
+/// The presentation options to use for showing the notification
 - (UNNotificationPresentationOptions)willPresentNotification:(UNNotification * _Nonnull)notification presentationOptions:(UNNotificationPresentationOptions)presentationOptions SWIFT_WARN_UNUSED_RESULT;
+/// Called when the user responds to a delivered notification.
+/// This method handles the user’s response to a notification, including any actions they took.
+/// \param response The user’s response to the notification
+///
 - (void)didReceiveNotificationResponseWithResponse:(UNNotificationResponse * _Nonnull)response;
 @end
 

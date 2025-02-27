@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		mXUg2jTRZMnvjgNfPgUYWWwlfQE=
+		zQaCB2FqK9RaqlGVO+owncZamxo=
 		</data>
 		<key>Headers/Redlink-Swift.h</key>
 		<data>
-		vLBqOQmQZ74YXz0AOk2KuR5DNRY=
+		E5K/VDEyQczA+hTOnzGhkgHAFPs=
 		</data>
 		<key>Headers/Redlink.h</key>
 		<data>
@@ -22,27 +22,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		3TmXYC+CYtHttj7pqxku1BzMybo=
+		wU0a8fwD9xvvbq8g+Yk3a+pY9xY=
 		</data>
 		<key>Modules/Redlink.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		V2737gH+4ec+Pr60uzQR+HBsR0k=
+		IZGr7yvVnWq0185j6p/Un7/8Etg=
 		</data>
 		<key>Modules/Redlink.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		A0cfPqaHLKCCFa9uQrd2slHT61Q=
+		DSlnYFEQ15Tz+9NyHPnT7jJRHqY=
 		</data>
 		<key>Modules/Redlink.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		4fOwwkWLM/ZQnV+gDbwwhiP05ik=
+		CahcXvf6aONW6BbahvJEKhsQjNE=
 		</data>
 		<key>Modules/Redlink.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		A0cfPqaHLKCCFa9uQrd2slHT61Q=
+		DSlnYFEQ15Tz+9NyHPnT7jJRHqY=
 		</data>
 		<key>Modules/Redlink.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		W5bjEHw3TUycOrknYNyCoO6bFMA=
+		kfPjveNRMYBh9w2GWjt2UYtluzQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -73,14 +73,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8yMGLO1MLMwY8mLnwfHvGkMWZ07GdoH7tyzPomJDQ/k=
+			kmOqtvJ7Erp/Ob8r0r92BevFvNC31JGtp2c7lZNtEq4=
 			</data>
 		</dict>
 		<key>Headers/Redlink-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2BJT/8EQJ02+e7j1I13RSwFYL72+VRa7i9LuDfjyHH4=
+			wjLDpni5jB4hnclhqvNklWZ9ePYJ5GrV9MuiH3X40mA=
 			</data>
 		</dict>
 		<key>Headers/Redlink.h</key>
@@ -101,35 +101,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			y57P2lQRt8suPbbCI+gwgr8hPuSOcdeqO4GbGjh5OZE=
+			FpjFhEAq7sgcjxK+9qA7fc6baQ8Fj+3RvmLG9J4LxfE=
 			</data>
 		</dict>
 		<key>Modules/Redlink.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			86ExyF7YW6Lik290uMQbtt/JxZfkOiRpU8CNEgzRnVc=
+			Mb2ncd0GBe/r9MYGpgKRpocLEACLYESWYqXECSiugyE=
 			</data>
 		</dict>
 		<key>Modules/Redlink.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			U/raS4v+y/KxzQX4IwgP2KHoP5aDzbTmEnKUw9TezkM=
+			Q5L6CfopU/Pq0TOrl66k2DYDhgZqZBtjHMhJX6b+vHs=
 			</data>
 		</dict>
 		<key>Modules/Redlink.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			86ExyF7YW6Lik290uMQbtt/JxZfkOiRpU8CNEgzRnVc=
+			Mb2ncd0GBe/r9MYGpgKRpocLEACLYESWYqXECSiugyE=
 			</data>
 		</dict>
 		<key>Modules/Redlink.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Lfk0bsTpT7zJilD0YBXX36Ug24h7Vs8my4MPCYFmwv4=
+			BmrKBd2vTESDLcwtQOMa/gUnn5+xe3eQIW4QnHpY7JE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

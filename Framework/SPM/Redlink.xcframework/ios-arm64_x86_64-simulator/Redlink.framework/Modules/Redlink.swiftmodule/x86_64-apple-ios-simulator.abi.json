@@ -474,6 +474,7 @@
         "declKind": "Import",
         "moduleName": "Redlink",
         "declAttributes": [
+          "ImplementationOnly",
           "RawDocComment"
         ]
       },
@@ -502,7 +503,10 @@
         "name": "SQLite",
         "printedName": "SQLite",
         "declKind": "Import",
-        "moduleName": "Redlink"
+        "moduleName": "Redlink",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -3972,7 +3976,10 @@
         "name": "SQLite",
         "printedName": "SQLite",
         "declKind": "Import",
-        "moduleName": "Redlink"
+        "moduleName": "Redlink",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -5073,7 +5080,8 @@
             "declAttributes": [
               "Dynamic",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -5103,7 +5111,8 @@
             "declAttributes": [
               "Dynamic",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -5139,7 +5148,8 @@
             "declAttributes": [
               "Dynamic",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -5169,7 +5179,8 @@
             "declAttributes": [
               "Dynamic",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -5215,7 +5226,8 @@
             "mangledName": "$s7Redlink0A4PushC04openB08userInfo16actionIdentifierySDys11AnyHashableVypG_SStF",
             "moduleName": "Redlink",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -7986,105 +7998,105 @@
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkEvent.swift",
       "kind": "Dictionary",
-      "offset": 409,
+      "offset": 430,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkEvent.swift",
       "kind": "Dictionary",
-      "offset": 470,
+      "offset": 491,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkEvent.swift",
       "kind": "Dictionary",
-      "offset": 529,
+      "offset": 550,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkEvent.swift",
       "kind": "Dictionary",
-      "offset": 588,
+      "offset": 609,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkEvent.swift",
       "kind": "StringLiteral",
-      "offset": 657,
+      "offset": 678,
       "length": 8,
       "value": "\"uuidId\""
     },
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkEvent.swift",
       "kind": "StringLiteral",
-      "offset": 727,
+      "offset": 748,
       "length": 8,
       "value": "\"pushId\""
     },
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkEvent.swift",
       "kind": "StringLiteral",
-      "offset": 795,
+      "offset": 816,
       "length": 11,
       "value": "\"eventName\""
     },
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkEvent.swift",
       "kind": "StringLiteral",
-      "offset": 877,
+      "offset": 898,
       "length": 11,
       "value": "\"createdAt\""
     },
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkEvent.swift",
       "kind": "StringLiteral",
-      "offset": 965,
+      "offset": 986,
       "length": 24,
       "value": "\"additionalStringFields\""
     },
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1067,
+      "offset": 1088,
       "length": 25,
       "value": "\"additionalNumericFields\""
     },
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1167,
+      "offset": 1188,
       "length": 22,
       "value": "\"additionalBoolFields\""
     },
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1264,
+      "offset": 1285,
       "length": 22,
       "value": "\"additionalDateFields\""
     },
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1351,
+      "offset": 1372,
       "length": 10,
       "value": "\"userData\""
     },
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkEvent.swift",
       "kind": "Dictionary",
-      "offset": 1980,
+      "offset": 2001,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2387,
+      "offset": 2408,
       "length": 11,
       "value": "\"eventName\""
     },
@@ -8175,7 +8187,7 @@
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/User\/RedlinkUserData.swift",
       "kind": "BooleanLiteral",
-      "offset": 3405,
+      "offset": 3404,
       "length": 5,
       "value": "false"
     },
@@ -8558,13 +8570,6 @@
       "value": "\"company_name\""
     },
     {
-      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkUser.swift",
-      "kind": "StringLiteral",
-      "offset": 1511,
-      "length": 13,
-      "value": "\"external_id\""
-    },
-    {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Common\/Store\/CommonData.swift",
       "kind": "StringLiteral",
       "offset": 278,
@@ -8854,7 +8859,7 @@
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 3090,
+      "offset": 3089,
       "length": 2,
       "value": "64"
     },
@@ -9155,7 +9160,7 @@
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Push\/RedlinkPush.swift",
       "kind": "BooleanLiteral",
-      "offset": 2454,
+      "offset": 2889,
       "length": 5,
       "value": "false"
     },
@@ -9335,14 +9340,14 @@
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/michalbanaszynski\/Library\/Developer\/Xcode\/DerivedData\/Redlink-hcxwnngxostvaaehwasvapqbdkob\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Redlink\/IntermediateBuildFilesPath\/Redlink.build\/Release-iphonesimulator\/Redlink.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/michalbanaszynski\/Library\/Developer\/Xcode\/DerivedData\/Redlink-cpybccopmrwzpuednrfichxwtzrz\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Redlink\/IntermediateBuildFilesPath\/Redlink.build\/Release-iphonesimulator\/Redlink.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 732,
       "length": 12,
       "value": "\"arrow-left\""
     },
     {
-      "filePath": "\/Users\/michalbanaszynski\/Library\/Developer\/Xcode\/DerivedData\/Redlink-hcxwnngxostvaaehwasvapqbdkob\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Redlink\/IntermediateBuildFilesPath\/Redlink.build\/Release-iphonesimulator\/Redlink.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/michalbanaszynski\/Library\/Developer\/Xcode\/DerivedData\/Redlink-cpybccopmrwzpuednrfichxwtzrz\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Redlink\/IntermediateBuildFilesPath\/Redlink.build\/Release-iphonesimulator\/Redlink.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 875,
       "length": 13,
