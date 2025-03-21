@@ -17,35 +17,35 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 @objc @_inheritsConvenienceInitializers public class Redlink : ObjectiveC.NSObject {
-  @objc public class func shared() -> Redlink
-  @objc public static var push: RedlinkPush {
+  @objc public class func shared() -> Redlink.Redlink
+  @objc public static var push: Redlink.RedlinkPush {
     @objc get
   }
-  @objc public static var user: RedlinkUserData {
+  @objc public static var user: Redlink.RedlinkUserData {
     @objc get
   }
-  @objc public static var analytics: RedlinkAnalytics {
+  @objc public static var analytics: Redlink.RedlinkAnalytics {
     @objc get
   }
   @objc override dynamic public init()
   @objc deinit
 }
-extension Redlink {
-  @objc public static func configure(using configuration: RedlinkConfiguration)
+extension Redlink.Redlink {
+  @objc public static func configure(using configuration: Redlink.RedlinkConfiguration)
 }
-extension Redlink {
+extension Redlink.Redlink {
   @objc public static var isAutoConfigurationForPushNotificationsEnabled: Swift.Bool {
     @objc get
     @objc set
   }
 }
-extension Redlink : UserNotifications.UNUserNotificationCenterDelegate {
+extension Redlink.Redlink : UserNotifications.UNUserNotificationCenterDelegate {
 }
 @_inheritsConvenienceInitializers @objc public class RedlinkUserData : ObjectiveC.NSObject {
   @objc override dynamic public init()
   @objc deinit
 }
-extension RedlinkUserData {
+extension Redlink.RedlinkUserData {
   @objc dynamic public var email: Swift.String? {
     @objc get
     @objc set
@@ -90,15 +90,15 @@ extension Foundation.NSNotification.Name {
   public static let reachabilityChanged: Foundation.Notification.Name
 }
 public class Reachability {
-  public typealias NetworkReachable = (Reachability) -> Swift.Void
-  public typealias NetworkUnreachable = (Reachability) -> Swift.Void
+  public typealias NetworkReachable = (Redlink.Reachability) -> Swift.Void
+  public typealias NetworkUnreachable = (Redlink.Reachability) -> Swift.Void
   @available(*, unavailable, renamed: "Connection")
   public enum NetworkStatus : Swift.CustomStringConvertible {
     case notReachable, reachableViaWiFi, reachableViaWWAN
     public var description: Swift.String {
       get
     }
-    public static func == (a: Reachability.NetworkStatus, b: Reachability.NetworkStatus) -> Swift.Bool
+    public static func == (a: Redlink.Reachability.NetworkStatus, b: Redlink.Reachability.NetworkStatus) -> Swift.Bool
     public func hash(into hasher: inout Swift.Hasher)
     public var hashValue: Swift.Int {
       get
@@ -109,14 +109,14 @@ public class Reachability {
     public var description: Swift.String {
       get
     }
-    public static func == (a: Reachability.Connection, b: Reachability.Connection) -> Swift.Bool
+    public static func == (a: Redlink.Reachability.Connection, b: Redlink.Reachability.Connection) -> Swift.Bool
     public func hash(into hasher: inout Swift.Hasher)
     public var hashValue: Swift.Int {
       get
     }
   }
-  public var whenReachable: Reachability.NetworkReachable?
-  public var whenUnreachable: Reachability.NetworkUnreachable?
+  public var whenReachable: Redlink.Reachability.NetworkReachable?
+  public var whenUnreachable: Redlink.Reachability.NetworkUnreachable?
   final public let reachableOnWWAN: Swift.Bool
   public var allowsCellularConnection: Swift.Bool
   public var notificationCenter: Foundation.NotificationCenter
@@ -124,10 +124,10 @@ public class Reachability {
     get
   }
   @available(*, unavailable, renamed: "connection")
-  public var currentReachabilityStatus: Reachability.Connection {
+  public var currentReachabilityStatus: Redlink.Reachability.Connection {
     get
   }
-  public var connection: Reachability.Connection {
+  public var connection: Redlink.Reachability.Connection {
     get
   }
   required public init(reachabilityRef: SystemConfiguration.SCNetworkReachability, queueQoS: Dispatch.DispatchQoS = .default, targetQueue: Dispatch.DispatchQueue? = nil)
@@ -135,7 +135,7 @@ public class Reachability {
   convenience public init?(queueQoS: Dispatch.DispatchQoS = .default, targetQueue: Dispatch.DispatchQueue? = nil)
   @objc deinit
 }
-extension Reachability {
+extension Redlink.Reachability {
   public func startNotifier() throws
   public func stopNotifier()
   public var isReachable: Swift.Bool {
@@ -154,17 +154,17 @@ extension Reachability {
 @objc @_hasMissingDesignatedInitializers final public class RedlinkAnalytics : ObjectiveC.NSObject {
   @objc deinit
 }
-extension RedlinkAnalytics {
+extension Redlink.RedlinkAnalytics {
   @objc final public func trackEvent(withName name: Swift.String, parameters: [Swift.String : Any] = [:], userData: Swift.String? = nil)
 }
 @_inheritsConvenienceInitializers @objc public class RedlinkInAppInteraction : ObjectiveC.NSObject {
   @objc override dynamic public init()
   @objc deinit
 }
-extension RedlinkInAppInteraction {
+extension Redlink.RedlinkInAppInteraction {
   @objc public static func presentAlertWithWebViewPresentationAction(in presentingViewController: UIKit.UIViewController?, title: Swift.String, message: Swift.String, webViewURL: Foundation.URL)
 }
-extension RedlinkInAppInteraction {
+extension Redlink.RedlinkInAppInteraction {
   @objc public static func presentWebViewController(in presentingViewController: UIKit.UIViewController?, for url: Foundation.URL)
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class AsynchronousOperation : Foundation.Operation {
@@ -192,7 +192,7 @@ extension RedlinkInAppInteraction {
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class RedlinkConfiguration : ObjectiveC.NSObject {
-  @objc public static func defaultConfiguration() -> RedlinkConfiguration
+  @objc public static func defaultConfiguration() -> Redlink.RedlinkConfiguration
   public var isLoggingEnabled: Swift.Bool {
     get
     set
@@ -213,16 +213,16 @@ extension RedlinkInAppInteraction {
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc public class RedlinkPush : ObjectiveC.NSObject {
-  @objc weak public var delegate: (any RedlinkPushDelegate)?
-  @objc public var options: RedlinkPushOptions
+  @objc weak public var delegate: (any Redlink.RedlinkPushDelegate)?
+  @objc public var options: Redlink.RedlinkPushOptions
   @objc override dynamic public init()
   @objc deinit
 }
-extension RedlinkPush {
-  @objc dynamic public func registerForPushNotifications(with options: RedlinkPushOptions)
+extension Redlink.RedlinkPush {
+  @objc dynamic public func registerForPushNotifications(with options: Redlink.RedlinkPushOptions)
   @objc dynamic public func unregisterForPushNotifications()
 }
-extension RedlinkPush {
+extension Redlink.RedlinkPush {
   @objc dynamic public func didRegisterForRemoteNotifications(with deviceToken: Foundation.Data, forceTokenUpdate: Swift.Bool = false)
   @objc dynamic public func didFailToRegisterForRemoteNotifications(with error: any Swift.Error)
   @objc dynamic public func willPresentNotification(_ notification: UserNotifications.UNNotification, presentationOptions: UserNotifications.UNNotificationPresentationOptions) -> UserNotifications.UNNotificationPresentationOptions
@@ -239,8 +239,8 @@ extension UIKit.UIWindow {
   @_Concurrency.MainActor @preconcurrency public func getVisibleViewController(_ aRootViewController: UIKit.UIViewController? = nil) -> UIKit.UIViewController?
 }
 @available(*, unavailable, renamed: "Connection")
-extension Reachability.NetworkStatus : Swift.Equatable {}
+extension Redlink.Reachability.NetworkStatus : Swift.Equatable {}
 @available(*, unavailable, renamed: "Connection")
-extension Reachability.NetworkStatus : Swift.Hashable {}
-extension Reachability.Connection : Swift.Equatable {}
-extension Reachability.Connection : Swift.Hashable {}
+extension Redlink.Reachability.NetworkStatus : Swift.Hashable {}
+extension Redlink.Reachability.Connection : Swift.Equatable {}
+extension Redlink.Reachability.Connection : Swift.Hashable {}

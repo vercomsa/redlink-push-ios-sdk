@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/Redlink.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		V2737gH+4ec+Pr60uzQR+HBsR0k=
+		jsaW6R6HtrPzUAuw/aXshAgJ28Q=
 		</data>
 		<key>Modules/Redlink.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/Redlink.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		W5bjEHw3TUycOrknYNyCoO6bFMA=
+		TdU0XS6C0ltth5PZsc9UPTGUYB0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -101,7 +101,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			y57P2lQRt8suPbbCI+gwgr8hPuSOcdeqO4GbGjh5OZE=
+			Jg98M1qAb3tl5kKiJHeQgGfbVfaCSrD4IRhMYAC3COU=
 			</data>
 		</dict>
 		<key>Modules/Redlink.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -129,7 +129,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Lfk0bsTpT7zJilD0YBXX36Ug24h7Vs8my4MPCYFmwv4=
+			VzXtmF5nS161f1cdz8KJuaxBA2Y5ZstLoe8KmCusnBg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
