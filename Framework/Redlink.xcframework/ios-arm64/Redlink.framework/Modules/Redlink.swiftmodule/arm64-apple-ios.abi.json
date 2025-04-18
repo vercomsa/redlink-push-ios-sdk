@@ -1462,6 +1462,30 @@
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "detachToken",
+            "printedName": "detachToken()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@Redlink@objc(cs)RedlinkUserData(im)detachToken",
+            "mangledName": "$s7Redlink0A8UserDataC11detachTokenyyF",
+            "moduleName": "Redlink",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -8157,16 +8181,23 @@
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkUnsubscribeToken.swift",
       "kind": "StringLiteral",
-      "offset": 413,
+      "offset": 440,
       "length": 14,
       "value": "\"user_profile\""
     },
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkUnsubscribeToken.swift",
       "kind": "StringLiteral",
-      "offset": 520,
+      "offset": 547,
       "length": 19,
       "value": "\"unsubscribe_token\""
+    },
+    {
+      "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkUnsubscribeToken.swift",
+      "kind": "StringLiteral",
+      "offset": 594,
+      "length": 14,
+      "value": "\"detach_token\""
     },
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Networking\/Encoding\/URLParameterEncoder.swift",

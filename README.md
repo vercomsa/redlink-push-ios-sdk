@@ -142,6 +142,11 @@ To make the current user's device to receive push notifications back again you n
 ```swift
 Redlink.user.saveUser()
 ```
+You can also unsubscribe user's push notification token. To do that call:
+```swift
+Redlink.user.detachToken()
+```
+
 ## Analytics
 
 In order to track custom user events use `RedlinkAnalytics` class. It can be accessed in:

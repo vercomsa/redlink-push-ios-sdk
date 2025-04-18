@@ -565,6 +565,9 @@ SWIFT_CLASS("_TtC7Redlink15RedlinkUserData")
 /// To add it back again <code>saveUser</code> method needs to be invoked.
 ///
 - (void)removeUserWithDeletePushToken:(BOOL)deletePushToken;
+/// Detaches push token from user data
+/// To add it back again <code>saveUser</code> method needs to be invoked.
+- (void)detachToken;
 @end
 
 
@@ -1147,6 +1150,9 @@ SWIFT_CLASS("_TtC7Redlink15RedlinkUserData")
 /// To add it back again <code>saveUser</code> method needs to be invoked.
 ///
 - (void)removeUserWithDeletePushToken:(BOOL)deletePushToken;
+/// Detaches push token from user data
+/// To add it back again <code>saveUser</code> method needs to be invoked.
+- (void)detachToken;
 @end
 
 
