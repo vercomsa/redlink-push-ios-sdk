@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		zQaCB2FqK9RaqlGVO+owncZamxo=
+		IwL80XhzBrCDx0Oah1RvnI4FCbs=
 		</data>
 		<key>Headers/Redlink-Swift.h</key>
 		<data>
-		VgxwbXSJZQxU7ps/oqYIKuJpWPI=
+		xdRviYVR0KubnHgKmf7iA7SNXxk=
 		</data>
 		<key>Headers/Redlink.h</key>
 		<data>
@@ -22,37 +22,109 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		wU0a8fwD9xvvbq8g+Yk3a+pY9xY=
+		exuD5Ru+TZ4eQ/pXtD3BB8lIKgw=
 		</data>
 		<key>Modules/Redlink.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		9xSVM3KbZs6tpI5TeK6/MOm3mSM=
+		2td2l3rXLcM9x66kmvXE9gOjjoM=
 		</data>
 		<key>Modules/Redlink.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		GtjC7f1BKopMS0vMctQ4tUWSW0U=
+		abzhZWfbY5pUSpxh7sJKJ5Kpc/E=
 		</data>
 		<key>Modules/Redlink.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		gyghBg+UJYwSECjNtFsPri2hXWQ=
+		JNDYe+f9cDDjNz1UBBiTqUzdqw0=
 		</data>
 		<key>Modules/Redlink.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		GtjC7f1BKopMS0vMctQ4tUWSW0U=
+		abzhZWfbY5pUSpxh7sJKJ5Kpc/E=
 		</data>
 		<key>Modules/Redlink.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		0rgTwu3HkMazUpinj0pnfT0UQB0=
+		cXxvDzCXFpYMHcc/VFtpYFUil7M=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		jFR3qmDgYTW+NibQCTp3+lox4Cw=
 		</data>
+		<key>bg.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TTZilh7XOb/IRsVvHs+Ckeq6p0c=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>cs.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			H9txWXwyrIfVfH+nBg3F3p869BU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>de.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WhZWaKohWMzYZZwj3T1DACs/CrQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>el.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1aemOthzCpDrSBfEBd2Z1xqWpnY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
 			NJRplS4SDiH2zWBR6FLnBIAlxR4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>hr.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			D2eMSZFBSgFdDPhl+Ia9XRDO6+M=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>hu.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			A5Qi6Kc9LONvvPq/SmPxN5wV4OA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>it.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			bccgi7gm4mHXfOI+ZqhUmup/2OM=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>lt.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			d9MQhELTrqIGVuKNxzQ5FesRYaY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -66,6 +138,33 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>ro.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			IrphBWavL8/iU6x5UbG1BF/Mohw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>sk.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			EA0VujnmnjL/iulaDgziwDq8oXQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>uk.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9+IQX+nX7ZAPVyxiTO/QAulwfD8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -73,14 +172,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kmOqtvJ7Erp/Ob8r0r92BevFvNC31JGtp2c7lZNtEq4=
+			II1+aT0iRODKSFJAA+FPeu0NpJGB+4aTH8nxgrFkRD0=
 			</data>
 		</dict>
 		<key>Headers/Redlink-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Et4lBMGs1q7sQjjQm1tYWGueFdMWzflDPX/oj9Q7ZJk=
+			8qgkQZmv24kw23gcZFd4G4D9TqSV05VvPZd087PDWQU=
 			</data>
 		</dict>
 		<key>Headers/Redlink.h</key>
@@ -101,35 +200,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GtZyXMXgIR0Gqt/fZqib78+Hsc+oQ+umYUNq+KfI4kw=
+			gf6UAX/DFJk0EnmfmycJP6vpUgyttILq8oe3j9RemBk=
 			</data>
 		</dict>
 		<key>Modules/Redlink.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WmxDW7v9noJsDuMlgiE1uzKEl31k8frftaR8nfxMu54=
+			Ovj8LP09fPG4kOr6NrnRiab2eUxaqaCy9+pzPoIowh4=
 			</data>
 		</dict>
 		<key>Modules/Redlink.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4EkASrMc5yyHGUqM8lVRDgHkcTjj/ASFNe19/bP4ppg=
+			/XRMIjMvtypTcftddGWFy4VaGNImD8HPeUzQrIlNCDk=
 			</data>
 		</dict>
 		<key>Modules/Redlink.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WmxDW7v9noJsDuMlgiE1uzKEl31k8frftaR8nfxMu54=
+			Ovj8LP09fPG4kOr6NrnRiab2eUxaqaCy9+pzPoIowh4=
 			</data>
 		</dict>
 		<key>Modules/Redlink.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			11Ha+SQwwjQBjFSctmY2/VawMwB7Q3juP+n0B5sBnxM=
+			dJDYBHxT3MV5Q1HbBwWGG5ymzUpGATWV8QpG4qtiw14=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -138,6 +237,42 @@
 			<data>
 			ETkZ4GzImF5p3N+Qs9nA/+3F8m/C9A+EI8wUJ+B7wBk=
 			</data>
+		</dict>
+		<key>bg.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hZ0tKISTBXuhIrqMVvuH2Wdneq8Jb5GHLL0QSa9q/nw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>cs.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UlCYUs5iaMLdfTHYGtPD1hugDI5REnMn58N+O64Y+o8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>de.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			TmuhqZeDqJx3BJpdfKWbfesnQ27jBKGZ15HwUDKPqEY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>el.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gO/ePaAmX9h6QeFA0G6mF5KhIiqh1j42YXgKmneXVQ4=
+			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
@@ -148,11 +283,74 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>hr.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			f1yzdyBOvQO4BvOA+ngZ49V4NgvsiujjGNRwLJh7+N0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>hu.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qVvHCxIuvjKR9eP8q3ETZ2p5AtHOrG1LkFcIPfHYT34=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>it.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			OuTlerj0vsy2zhiCTfh3h4s0wuVb6nCRBMwwxwDkrh8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>lt.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/AG5sEP1fC62CHH5GN7K7iJLk0REyZe5J5/50YsNkS0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>pl.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			7ty92o5cG+8OIZz2TtKCiOxMJYj2UUZc9vQvUz/n7wE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ro.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wYh4ZeKFP4oy8YfsH8G6RtPaPzWtXRbnNl6n/LoFGlM=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>sk.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9O8aWmyRX+iEEU5RwmPLBGK16A1woBfOXaTtzP/syws=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>uk.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			a7neDTc9Tui5qnvURm54VIUIZJUUum4k5F7DEyxcZJc=
 			</data>
 			<key>optional</key>
 			<true/>

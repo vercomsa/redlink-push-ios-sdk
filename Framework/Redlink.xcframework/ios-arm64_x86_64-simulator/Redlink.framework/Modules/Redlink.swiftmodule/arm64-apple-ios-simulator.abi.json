@@ -7535,6 +7535,41 @@
           },
           {
             "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
             "name": "ReferenceConvertible",
             "printedName": "ReferenceConvertible",
             "children": [
@@ -7576,41 +7611,6 @@
             ],
             "usr": "s:s21_ObjectiveCBridgeableP",
             "mangledName": "$ss21_ObjectiveCBridgeableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomReflectable",
-            "printedName": "CustomReflectable",
-            "usr": "s:s17CustomReflectableP",
-            "mangledName": "$ss17CustomReflectableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
           },
           {
             "kind": "Conformance",
@@ -8048,77 +8048,77 @@
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkEvent.swift",
       "kind": "StringLiteral",
-      "offset": 657,
+      "offset": 650,
       "length": 8,
       "value": "\"uuidId\""
     },
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkEvent.swift",
       "kind": "StringLiteral",
-      "offset": 727,
+      "offset": 713,
       "length": 8,
       "value": "\"pushId\""
     },
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkEvent.swift",
       "kind": "StringLiteral",
-      "offset": 795,
+      "offset": 774,
       "length": 11,
       "value": "\"eventName\""
     },
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkEvent.swift",
       "kind": "StringLiteral",
-      "offset": 877,
+      "offset": 849,
       "length": 11,
       "value": "\"createdAt\""
     },
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkEvent.swift",
       "kind": "StringLiteral",
-      "offset": 965,
+      "offset": 930,
       "length": 24,
       "value": "\"additionalStringFields\""
     },
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1067,
+      "offset": 1025,
       "length": 25,
       "value": "\"additionalNumericFields\""
     },
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1167,
+      "offset": 1118,
       "length": 22,
       "value": "\"additionalBoolFields\""
     },
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1264,
+      "offset": 1208,
       "length": 22,
       "value": "\"additionalDateFields\""
     },
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1351,
+      "offset": 1288,
       "length": 10,
       "value": "\"userData\""
     },
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkEvent.swift",
       "kind": "Dictionary",
-      "offset": 1980,
+      "offset": 1917,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Models\/RedlinkEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2387,
+      "offset": 2324,
       "length": 11,
       "value": "\"eventName\""
     },
@@ -9196,7 +9196,7 @@
     {
       "filePath": "\/Users\/michalbanaszynski\/Documents\/REPO\/redlink-ios\/Redlink\/Redlink\/Push\/RedlinkPush.swift",
       "kind": "BooleanLiteral",
-      "offset": 2454,
+      "offset": 2556,
       "length": 5,
       "value": "false"
     },
