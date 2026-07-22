@@ -28,6 +28,27 @@ class project_nameNotificationServiceExtension: RedlinkNotificationServiceExtens
 
 } 
 ```
+
+#### Using your own Notification Service Extension
+
+If you already have your own `UNNotificationServiceExtension` (for example to modify the notification content or attachments) and cannot subclass `RedlinkNotificationServiceExtension`, forward the received request to Redlink to report the push delivery. This only reports the delivery status and does not touch your `contentHandler`, so you keep full control over the notification content.
+```swift
+import UserNotifications
+import Redlink
+
+class project_nameNotificationServiceExtension: UNNotificationServiceExtension {
+    override func didReceive(_ request: UNNotificationRequest,
+                             withContentHandler contentHandler: @escaping (UNNotificationContent) -> Void) {
+        // Report the delivery, then run your own logic and call your contentHandler.
+        Redlink.push.didReceiveNotificationServiceRequest(request) {
+            // ... your own content handling ...
+            // contentHandler(yourContent)
+        }
+    }
+}
+```
+The extension target must link the Redlink framework and include `RedlinkConfig.plist` in its bundle, otherwise the report cannot be authorized. If you only have the raw payload, use `Redlink.push.reportPushDelivered(userInfo:)` instead.
+
 ### 2. Import Redlink into your project
 Redlink can be imported by using CocoaPods. If you are not familiar with CocoaPods please check [official guide](http://guides.cocoapods.org/using/getting-started.html).
 

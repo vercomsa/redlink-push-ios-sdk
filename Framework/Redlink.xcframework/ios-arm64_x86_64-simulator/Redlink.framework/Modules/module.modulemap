@@ -7,5 +7,4 @@ framework module Redlink {
 
 module Redlink.Swift {
   header "Redlink-Swift.h"
-  requires objc
 }

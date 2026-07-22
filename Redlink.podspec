@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name            = "Redlink"
-  s.version         = "1.1.19"
+  s.version         = "1.1.20"
   s.swift_version   = '6.0.3'
   s.summary         = "Redlink Push Notifications"
   s.ios.deployment_target = '14.0'
