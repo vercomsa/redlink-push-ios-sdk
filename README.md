@@ -47,7 +47,7 @@ class project_nameNotificationServiceExtension: UNNotificationServiceExtension {
     }
 }
 ```
-The extension target must link the Redlink framework and include `RedlinkConfig.plist` in its bundle, otherwise the report cannot be authorized. If you only have the raw payload, use `Redlink.push.reportPushDelivered(userInfo:)` instead.
+The extension target must link the Redlink framework. Since 1.1.22 the SDK reads `RedlinkConfig.plist` from the containing app when the extension does not bundle its own copy. If you only have the raw payload, use `Redlink.push.reportPushDelivered(userInfo:)` instead.
 
 ### 2. Import Redlink into your project
 Redlink can be imported by using CocoaPods. If you are not familiar with CocoaPods please check [official guide](http://guides.cocoapods.org/using/getting-started.html).
@@ -301,3 +301,9 @@ Each action has one of the four action types:
 
 We provide demo app to simply show you what Redlink is capable of. This will also show you how simple it is to configure the framework
 within your project. Please check `Demo` directory to get your hands on.
+
+# Security & Releases
+
+- [SECURITY.md](SECURITY.md) - supported versions and how to report a vulnerability or security incident (please do not open public issues for these)
+- [CHANGELOG.md](CHANGELOG.md) - changes in each release, including security fixes
+- [sbom.cdx.json](sbom.cdx.json) - Software Bill of Materials (CycloneDX 1.6) of the latest release

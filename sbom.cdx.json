@@ -1,0 +1,195 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:33dda709-1210-469a-860f-f0753f5f06b5",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-27T09:56:47Z",
+    "lifecycles": [
+      {
+        "phase": "build"
+      }
+    ],
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "name": "update-public-docs.sh",
+          "supplier": {
+            "name": "Vercom S.A."
+          }
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "Vercom S.A.",
+        "email": "redlink.push@vercom.pl"
+      }
+    ],
+    "manufacturer": {
+      "name": "Vercom S.A.",
+      "url": [
+        "https://www.vercom.pl"
+      ]
+    },
+    "supplier": {
+      "name": "Vercom S.A.",
+      "url": [
+        "https://www.vercom.pl"
+      ]
+    },
+    "component": {
+      "type": "library",
+      "bom-ref": "pkg:cocoapods/Redlink@1.1.22",
+      "supplier": {
+        "name": "Vercom S.A.",
+        "url": [
+          "https://www.vercom.pl"
+        ]
+      },
+      "name": "Redlink",
+      "version": "1.1.22",
+      "description": "RedLink iOS push notification SDK (binary xcframework, CocoaPods and Swift Package Manager)",
+      "licenses": [
+        {
+          "license": {
+            "name": "Proprietary"
+          }
+        }
+      ],
+      "copyright": "Copyright 2019 - present Redlink. All rights reserved.",
+      "purl": "pkg:cocoapods/Redlink@1.1.22",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/vercomsa/redlink-push-ios-sdk"
+        },
+        {
+          "type": "website",
+          "url": "https://www.redlink.pl"
+        },
+        {
+          "type": "security-contact",
+          "url": "mailto:soc@vercom.pl"
+        },
+        {
+          "type": "release-notes",
+          "url": "https://github.com/vercomsa/redlink-push-ios-sdk/blob/1.1.22/CHANGELOG.md"
+        },
+        {
+          "type": "distribution",
+          "url": "https://github.com/vercomsa/redlink-push-ios-sdk/blob/1.1.22/Framework/Redlink.xcframework/ios-arm64_x86_64-simulator/Redlink.framework/Redlink",
+          "comment": "Framework/Redlink.xcframework/ios-arm64_x86_64-simulator/Redlink.framework/Redlink",
+          "hashes": [
+            {
+              "alg": "SHA-256",
+              "content": "18051df4dd2a9607e228e14dfd02cf8065e49f0042a02ed62268dc2c47b0b284"
+            },
+            {
+              "alg": "SHA-512",
+              "content": "4fa52784852ed6e57b7cd113ff8a4bb331347ac648608283462781815184ae7f21dcea4be725df8e4df4d118e6e2d7a86ec1529052c6818aa21f8d6b63197746"
+            }
+          ]
+        },
+        {
+          "type": "distribution",
+          "url": "https://github.com/vercomsa/redlink-push-ios-sdk/blob/1.1.22/Framework/Redlink.xcframework/ios-arm64/Redlink.framework/Redlink",
+          "comment": "Framework/Redlink.xcframework/ios-arm64/Redlink.framework/Redlink",
+          "hashes": [
+            {
+              "alg": "SHA-256",
+              "content": "3574487afc37a419dfc5f80fee0c47065a65c2cbcdf045bcd1f228dd164a78ad"
+            },
+            {
+              "alg": "SHA-512",
+              "content": "e3565497606d6ba507e0c312433cce135e245c7330e6971b5c495be81fc1f3990eb12dbd19561be35a7fd229742d4810cde8807648d3fe3e310cd46704a0d3de"
+            }
+          ]
+        },
+        {
+          "type": "distribution",
+          "url": "https://github.com/vercomsa/redlink-push-ios-sdk/blob/1.1.22/Framework/SPM/Redlink.xcframework/ios-arm64_x86_64-simulator/Redlink.framework/Redlink",
+          "comment": "Framework/SPM/Redlink.xcframework/ios-arm64_x86_64-simulator/Redlink.framework/Redlink",
+          "hashes": [
+            {
+              "alg": "SHA-256",
+              "content": "b1986de087650a8622874fc8b212faec6f76239892d75e014f34268363feed55"
+            },
+            {
+              "alg": "SHA-512",
+              "content": "8b7e86b1fa7c7d6f72025cfd96d61941a728bea6aa4282d26199fe75d17e5c01db3e3624704347047e8cb54239c052802f05196d76d6c5857b925be0c8698e76"
+            }
+          ]
+        },
+        {
+          "type": "distribution",
+          "url": "https://github.com/vercomsa/redlink-push-ios-sdk/blob/1.1.22/Framework/SPM/Redlink.xcframework/ios-arm64/Redlink.framework/Redlink",
+          "comment": "Framework/SPM/Redlink.xcframework/ios-arm64/Redlink.framework/Redlink",
+          "hashes": [
+            {
+              "alg": "SHA-256",
+              "content": "8dae31ad6e19fd7b8fe64686f9e76db4a092c7b4226c56a0c4dd48cde663ac8e"
+            },
+            {
+              "alg": "SHA-512",
+              "content": "ce9aa1c7cd6288f11489a7929a81f98fda0b591c6b87d49e60b056e17d5281cf8279f52e38af2a3f578626df8ad77c13e5a3e7ae6d7fcded0abdc9cb3c13e69f"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:cocoapods/SQLite.swift@0.15.3",
+      "supplier": {
+        "name": "Stephen Celis",
+        "url": [
+          "https://github.com/stephencelis"
+        ]
+      },
+      "name": "SQLite.swift",
+      "version": "0.15.3",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:cocoapods/SQLite.swift@0.15.3",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/stephencelis/SQLite.swift"
+        }
+      ],
+      "properties": [
+        {
+          "name": "redlink:linkage:cocoapods",
+          "value": "external pod dependency, resolved by the integrating app"
+        },
+        {
+          "name": "redlink:linkage:spm",
+          "value": "statically linked into the Redlink binary"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:cocoapods/Redlink@1.1.22",
+      "dependsOn": [
+        "pkg:cocoapods/SQLite.swift@0.15.3"
+      ]
+    },
+    {
+      "ref": "pkg:cocoapods/SQLite.swift@0.15.3",
+      "dependsOn": []
+    }
+  ]
+}
